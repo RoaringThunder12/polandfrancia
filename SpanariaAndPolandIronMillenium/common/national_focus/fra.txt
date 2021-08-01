@@ -19,6 +19,10 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		available = {
+			
+			
+			
+			
 		}
 	}
 
@@ -26,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = FRA_the_armies_of_the_revolution
 		icon = GFX_focus_ger_great_red_menace
-		x = 14
+		x = 15
 		y = 0
 		cost = 10
 		search_filters = {
@@ -113,7 +117,7 @@ focus_tree = {
 		id = FRA_found_the_french_labor_association
 		icon = GFX_focus_por_workers_of_iberia
 		x = 8
-		y = 4
+		y = 3
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -125,7 +129,7 @@ focus_tree = {
 	focus = {
 		id = FRA_issue_ban_on_monopolies
 		icon = GFX_focus_eng_crush_the_dream
-		x = 9
+		x = 10
 		y = 3
 		cost = 10
 		search_filters = {
@@ -178,7 +182,7 @@ focus_tree = {
 		id = FRA_personal_freedom_for_workers
 		icon = GFX_goal_continuous_boost_freedom
 		x = 7
-		y = 5
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -204,7 +208,7 @@ focus_tree = {
 		id = FRA_rearm_the_vanguard
 		icon = GFX_focus_attack_france
 		x = 9
-		y = 5
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -217,7 +221,7 @@ focus_tree = {
 		id = FRA_the_fourth_republic
 		icon = GFX_FRA_the_fourth_republic-91
 		x = 8
-		y = 6
+		y = 5
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
@@ -268,7 +272,7 @@ focus_tree = {
 	focus = {
 		id = FRA_silence_political_opponents
 		icon = GFX_focus_generic_air_defense
-		x = 5
+		x = 6
 		y = 7
 		cost = 5
 		search_filters = {
@@ -281,8 +285,8 @@ focus_tree = {
 	focus = {
 		id = FRA_civil_war_recovery
 		icon = GFX_focus_BUL_condemn_macedonian_organizations
-		x = 9
-		y = 7
+		x = 10
+		y = 6
 		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -298,14 +302,13 @@ focus_tree = {
 	focus = {
 		id = FRA_one_france
 		icon = GFX_FRA_one_france-170
-		x = 6
-		y = 8
+		x = 9
+		y = 12
 		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = FRA_silence_political_opponents  focus = FRA_civil_war_recovery  }
-		mutually_exclusive = { focus = FRA_union_of_european_commonwealths  }
+		prerequisite = { focus = FRA_open_new_companies_in_paris  } prerequisite = { focus = FRA_bordeaux_munitions  focus = FRA_the_paris_metro_area  } prerequisite = { focus = FRA_develop_bordeaux  focus = FRA_centralize_french_currency  }
 	}
 
 	#Army Drill
@@ -325,7 +328,7 @@ focus_tree = {
 	focus = {
 		id = FRA_construct_modern_naval_infrastructure
 		icon = GFX_focus_generic_navy_battleship2
-		x = 16
+		x = 17
 		y = 1
 		cost = 10
 		search_filters = {
@@ -338,7 +341,7 @@ focus_tree = {
 	focus = {
 		id = FRA_a_flexible_fleet
 		icon = GFX_goal_generic_navy_submarine
-		x = 15
+		x = 16
 		y = 2
 		cost = 20
 		search_filters = {
@@ -352,7 +355,7 @@ focus_tree = {
 	focus = {
 		id = FRA_a_floating_fortress
 		icon = GFX_goal_generic_navy_carrier
-		x = 17
+		x = 18
 		y = 2
 		cost = 20
 		search_filters = {
@@ -366,7 +369,7 @@ focus_tree = {
 	focus = {
 		id = FRA_red_navy_doctrine
 		icon = GFX_goal_generic_navy_cruiser
-		x = 16
+		x = 17
 		y = 3
 		cost = 5
 		search_filters = {
@@ -379,7 +382,7 @@ focus_tree = {
 	focus = {
 		id = FRA_mobile_warfare
 		icon = GFX_FRA_mobile_warfare-145
-		x = 13
+		x = 14
 		y = 2
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -391,7 +394,7 @@ focus_tree = {
 	focus = {
 		id = FRA_modern_weapons_development
 		icon = GFX_focus_generic_socialist_science
-		x = 13
+		x = 14
 		y = 3
 		cost = 10
 		search_filters = {
@@ -404,7 +407,7 @@ focus_tree = {
 	focus = {
 		id = FRA_the_redwing_operation
 		icon = GFX_goal_generic_build_airforce
-		x = 15
+		x = 16
 		y = 4
 		cost = 20
 		search_filters = {
@@ -417,8 +420,8 @@ focus_tree = {
 	focus = {
 		id = FRA_revenge_for_the_rhine
 		icon = GFX_FRA_revenge_for_the_rhine-431
-		x = 5
-		y = 11
+		x = 8
+		y = 14
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
@@ -430,8 +433,8 @@ focus_tree = {
 	focus = {
 		id = FRA_operation_guerre_fluviale
 		icon = GFX_focus_BUL_condemn_macedonian_organizations
-		x = 6
-		y = 9
+		x = 9
+		y = 13
 		cost = 20
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
@@ -443,8 +446,8 @@ focus_tree = {
 	focus = {
 		id = FRA_integrate_the_swiss
 		icon = GFX_focus_attack_switzerland
-		x = 7
-		y = 11
+		x = 10
+		y = 14
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
@@ -456,13 +459,13 @@ focus_tree = {
 	focus = {
 		id = FRA_demand_corsica
 		icon = GFX_focus_befriend_italy
-		x = 7
+		x = 8
 		y = 7
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_ANNEXATION
 		}
-		prerequisite = { focus = FRA_operation_guerre_fluviale  focus = FRA_the_fourth_republic  }
+		prerequisite = { focus = FRA_civil_war_recovery  }
 	}
 
 	#Spread The Revolution
@@ -573,22 +576,21 @@ focus_tree = {
 	focus = {
 		id = FRA_union_of_european_commonwealths
 		icon = GFX_focus_usa_union_representation_act
-		x = 11
-		y = 8
+		x = 19
+		y = 7
 		cost = 20
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = FRA_demand_corsica  } prerequisite = { focus = FRA_civil_war_recovery  }
-		mutually_exclusive = { focus = FRA_one_france  }
+		prerequisite = { focus = FRA_civil_war_recovery  }
 	}
 
 	#Send Delegates To The Entente
 	focus = {
 		id = FRA_send_delegates_to_the_entente
 		icon = GFX_focus_AST_rats_tobruk
-		x = 9
-		y = 9
+		x = 17
+		y = 8
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -600,8 +602,8 @@ focus_tree = {
 	focus = {
 		id = FRA_send_delegates_to_the_central_bloc
 		icon = GFX_focus_BUL_the_third_bulgarian_empire
-		x = 13
-		y = 9
+		x = 21
+		y = 8
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -613,8 +615,8 @@ focus_tree = {
 	focus = {
 		id = FRA_invite_britain
 		icon = GFX_FRA_invite_britain-44
-		x = 8
-		y = 10
+		x = 16
+		y = 9
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -626,8 +628,8 @@ focus_tree = {
 	focus = {
 		id = FRA_invite_poland
 		icon = GFX_focus_generic_polish_deal
-		x = 9
-		y = 11
+		x = 17
+		y = 10
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -639,8 +641,8 @@ focus_tree = {
 	focus = {
 		id = FRA_invite_germany
 		icon = GFX_focus_chi_mission_to_germany
-		x = 12
-		y = 10
+		x = 20
+		y = 9
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -652,8 +654,8 @@ focus_tree = {
 	focus = {
 		id = FRA_invite_italy
 		icon = GFX_focus_befriend_italy
-		x = 14
-		y = 10
+		x = 22
+		y = 9
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -665,8 +667,8 @@ focus_tree = {
 	focus = {
 		id = FRA_invite_scandinavia
 		icon = GFX_focus_invite_finland
-		x = 13
-		y = 11
+		x = 21
+		y = 10
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -678,13 +680,210 @@ focus_tree = {
 	focus = {
 		id = FRA_invite_hungary
 		icon = GFX_FRA_invite_hungary-259
-		x = 10
-		y = 10
+		x = 18
+		y = 9
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = FRA_send_delegates_to_the_entente  }
+	}
+
+	#Modern Rifles
+	focus = {
+		id = FRA_modern_rifles
+		icon = GFX_focus_secret_rearmament
+		x = 12
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FRA_army_drill  }
+	}
+
+	#Purchase Artillery
+	focus = {
+		id = FRA_purchase_artillery
+		icon = GFX_goal_generic_army_artillery2
+		x = 12
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FRA_modern_rifles  }
+	}
+
+	#CAS Effort
+	focus = {
+		id = FRA_cas_effort
+		icon = GFX_goal_generic_CAS
+		x = 14
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FRA_the_redwing_operation  }
+	}
+
+	#Fighter Effort
+	focus = {
+		id = FRA_fighter_effort
+		icon = GFX_goal_generic_air_fighter
+		x = 16
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FRA_the_redwing_operation  }
+	}
+
+	#Bomber Effort
+	focus = {
+		id = FRA_bomber_effort
+		icon = GFX_goal_generic_air_bomber
+		x = 18
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FRA_the_redwing_operation  }
+	}
+
+	#The Atomic Project
+	focus = {
+		id = FRA_the_atomic_project
+		icon = GFX_focus_wonderweapons
+		x = 13
+		y = 4
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FRA_modern_weapons_development  } prerequisite = { focus = FRA_purchase_artillery  }
+	}
+
+	#The French Reconstruction Authority
+	focus = {
+		id = FRA_the_french_reconstruction_authority
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 11
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_civil_war_recovery  }
+	}
+
+	#Focus On Civilian Development
+	focus = {
+		id = FRA_focus_on_civilian_development
+		icon = GFX_FRA_focus_on_civilian_development-382
+		x = 9
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_the_french_reconstruction_authority  }
+		mutually_exclusive = { focus = FRA_focus_on_military_production  }
+	}
+
+	#Focus On Military Production
+	focus = {
+		id = FRA_focus_on_military_production
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 13
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_the_french_reconstruction_authority  }
+		mutually_exclusive = { focus = FRA_focus_on_civilian_development  }
+	}
+
+	#Northern Railway Development
+	focus = {
+		id = FRA_northern_railway_development
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 11
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_focus_on_civilian_development  focus = FRA_focus_on_military_production  }
+	}
+
+	#The Paris Metro Area
+	focus = {
+		id = FRA_the_paris_metro_area
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 8
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_focus_on_civilian_development  }
+	}
+
+	#Open New Companies in Paris
+	focus = {
+		id = FRA_open_new_companies_in_paris
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 14
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_focus_on_military_production  }
+	}
+
+	#Develop Bordeaux
+	focus = {
+		id = FRA_develop_bordeaux
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 10
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_focus_on_civilian_development  }
+	}
+
+	#Bordeaux Munitions
+	focus = {
+		id = FRA_bordeaux_munitions
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 12
+		y = 10
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_focus_on_military_production  }
+	}
+
+	#Centralize French Currency
+	focus = {
+		id = FRA_centralize_french_currency
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 6
+		y = 10
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_silence_political_opponents  }
 	}
 
 }
