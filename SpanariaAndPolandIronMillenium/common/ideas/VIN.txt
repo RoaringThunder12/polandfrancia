@@ -43,6 +43,20 @@ ideas = {
 				factor = 0
 			}
 		}
+		VIN_fascism_advisor = {
+			allowed = {
+				original_tag = "VIN"
+			}
+			traits = { fascism_minister }
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		VIN_neutrality_advisor = {
 			allowed = {
 				original_tag = "VIN"
@@ -52,6 +66,21 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		VIN_radical_advisor = {
+			allowed = {
+				original_tag = "VIN"
+			}
+			traits = { radical_minister }
+			picture = "generic_goods_red_bonus"
+			do_effect = {
+				NOT = {
+					has_government = radical
 				}
 			}
 			ai_will_do = {

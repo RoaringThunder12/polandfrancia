@@ -255,3 +255,17 @@ democratic_on_the_rise = {
 	}
 }
 
+fascism_on_the_rise = {
+	icon = generic_fascism
+	allowed = {
+		always = yes
+	}
+}
+
+radical_on_the_rise = {
+	icon = generic_communism
+	allowed = {
+		always = yes
+	}
+}
+

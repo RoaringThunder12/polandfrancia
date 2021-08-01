@@ -60,7 +60,9 @@ set_popularities = {
 	absolutist = 9
 	communism = 35
 	democratic = 40
-	neutrality = 16
+	fascism = 8
+	neutrality = 4
+	radical = 4
 }
 
 add_opinion_modifier = { target = POR modifier = negative_10 }

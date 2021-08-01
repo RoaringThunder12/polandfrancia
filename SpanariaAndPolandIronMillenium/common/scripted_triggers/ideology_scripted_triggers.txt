@@ -7,6 +7,8 @@ is_enemy_ideology = {
 				OR = {
 					has_government = communism
 					has_government = democratic
+					has_government = fascism
+					has_government = radical
 				}
 			}
 		}
@@ -16,6 +18,8 @@ is_enemy_ideology = {
 				OR = {
 					has_government = absolutist
 					has_government = democratic
+					has_government = fascism
+					has_government = radical
 				}
 			}
 		}
@@ -25,6 +29,30 @@ is_enemy_ideology = {
 				OR = {
 					has_government = absolutist
 					has_government = communism
+					has_government = fascism
+					has_government = radical
+				}
+			}
+		}
+		AND = {
+			has_government = fascism
+			ROOT = {
+				OR = {
+					has_government = absolutist
+					has_government = communism
+					has_government = democratic
+					has_government = radical
+				}
+			}
+		}
+		AND = {
+			has_government = radical
+			ROOT = {
+				OR = {
+					has_government = absolutist
+					has_government = communism
+					has_government = democratic
+					has_government = fascism
 				}
 			}
 		}

@@ -58,7 +58,9 @@ set_popularities = {
 	absolutist = 31
 	communism = 0
 	democratic = 52
-	neutrality = 17
+	fascism = 13
+	neutrality = 4
+	radical = 0
 }
 
 add_opinion_modifier = { target = ARM modifier = negative_200 }

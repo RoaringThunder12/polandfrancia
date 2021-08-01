@@ -61,7 +61,8 @@ set_politics = {
 set_popularities = {
 	absolutist = 67
 	democratic = 29
-	neutrality = 4
+	neutrality = 1
+	radical = 3
 }
 
 add_opinion_modifier = { target = BAN modifier = negative_20 }

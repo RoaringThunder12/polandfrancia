@@ -80,8 +80,8 @@ bookmarks = {
 		}
 		CAN = {
 			minor = yes
-			history = "neutrality_SP_CONV_DESC"
-			ideology = neutrality
+			history = "radical_SP_CONV_DESC"
+			ideology = radical
 			ideas = { }
 		}
 		CAR = {
@@ -128,8 +128,8 @@ bookmarks = {
 		}
 		USA = {
 			minor = yes
-			history = "neutrality_SP_CONV_DESC"
-			ideology = neutrality
+			history = "radical_SP_CONV_DESC"
+			ideology = radical
 			ideas = { }
 		}
 		X04 = {

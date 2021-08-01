@@ -25,7 +25,8 @@ set_politics = {
 set_popularities = {
 	absolutist = 34
 	democratic = 52
-	neutrality = 14
+	neutrality = 2
+	radical = 12
 }
 
 add_opinion_modifier = { target = CSA modifier = negative_150 }

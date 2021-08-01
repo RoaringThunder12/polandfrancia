@@ -49,6 +49,8 @@ has_unsupported_manpower_law = {
 		has_war_support < 0.2
 		NOT = { has_government = absolutist }
 		NOT = { has_government = communism }
+		NOT = { has_government = fascism }
+		NOT = { has_government = radical }
 	}
 	else_if = {
 		limit = {
@@ -58,6 +60,8 @@ has_unsupported_manpower_law = {
 		has_war_support < 0.6
 		NOT = { has_government = absolutist }
 		NOT = { has_government = communism }
+		NOT = { has_government = fascism }
+		NOT = { has_government = radical }
 	}
 	else_if = {
 		limit = {
@@ -86,6 +90,9 @@ has_excessive_army_size = {
 			NOT = {
 				has_government = communism
 			}
+			NOT = {
+				has_government = radical
+			}
 		}
 		AND = {
 		num_of_factories < 50
@@ -93,6 +100,9 @@ has_excessive_army_size = {
 		has_manpower < 1
 			NOT = {
 				has_government = communism
+			}
+			NOT = {
+				has_government = radical
 			}
 		}
 		AND = {
@@ -102,6 +112,9 @@ has_excessive_army_size = {
 			NOT = {
 				has_government = communism
 			}
+			NOT = {
+				has_government = radical
+			}
 		}
 		AND = {
 			num_of_factories < 100
@@ -110,11 +123,19 @@ has_excessive_army_size = {
 			NOT = {
 				has_government = communism
 			}
+			NOT = {
+				has_government = radical
+			}
 		}
 		AND = {
 			has_army_manpower = { size = 2500000 }
 			has_manpower < 1
 			has_government = democratic
+		}
+		AND = {
+			has_army_manpower = { size = 3000000 }
+			has_manpower < 1
+			has_government = fascism
 		}
 		AND = {
 			has_army_manpower = { size = 3000000 }

@@ -59,7 +59,9 @@ set_popularities = {
 	absolutist = 13
 	communism = 3
 	democratic = 62
-	neutrality = 22
+	fascism = 14
+	neutrality = 5
+	radical = 3
 }
 
 give_military_access = AUS

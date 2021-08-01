@@ -22,7 +22,7 @@ focus_tree = {
 		id = Home_of_RevolutionFRA
 		icon = GFX_goal_support_communism
 		text = Home_of_Revolution
-		x = 29
+		x = 33
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -38,11 +38,19 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		text = Influence_CRO
 		prerequisite = { focus = Home_of_RevolutionFRA }
-		x = 24
+		x = 28
 		y = 1
 		cost = 10
 		completion_reward = {
 			CRO = {
+				if = {
+					limit = {
+						FRA = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
 				if = {
 					limit = {
 						FRA = {
@@ -66,6 +74,14 @@ focus_tree = {
 						}
 					}
 					add_ideas = absolutist_influence
+				}
+				if = {
+					limit = {
+						FRA = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -105,11 +121,19 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		text = Influence_DDR
 		prerequisite = { focus = Home_of_RevolutionFRA }
-		x = 26
+		x = 30
 		y = 1
 		cost = 10
 		completion_reward = {
 			DDR = {
+				if = {
+					limit = {
+						FRA = {
+							has_government = fascism
+						}
+					}
+					add_ideas = fascist_influence
+				}
 				if = {
 					limit = {
 						FRA = {
@@ -133,6 +157,14 @@ focus_tree = {
 						}
 					}
 					add_ideas = absolutist_influence
+				}
+				if = {
+					limit = {
+						FRA = {
+							has_government = radical
+						}
+					}
+					add_ideas = radical_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -171,7 +203,7 @@ focus_tree = {
 		id = StrengthComFRA
 		icon = GFX_goal_support_communism
 		text = StrengthCom
-		x = 41
+		x = 45
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -216,7 +248,7 @@ focus_tree = {
 		bypass = {
 					has_war_with = POR
 				}
-		x = 36
+		x = 40
 		y = 2
 		cost = 10
 		available = {
@@ -256,7 +288,7 @@ focus_tree = {
 		bypass = {
 					has_war_with = CRO
 				}
-		x = 38
+		x = 42
 		y = 2
 		cost = 10
 		available = {
@@ -296,7 +328,7 @@ focus_tree = {
 		bypass = {
 					has_war_with = DDR
 				}
-		x = 40
+		x = 44
 		y = 2
 		cost = 10
 		available = {
@@ -332,7 +364,7 @@ focus_tree = {
 		id = Com_SummitFRA
 		icon = GFX_goal_generic_allies_build_infantry
 		text = Communist_Summit
-		x = 49
+		x = 53
 		y = 0
 		cost = 10
 		completion_reward = {

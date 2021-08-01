@@ -43,6 +43,20 @@ ideas = {
 				factor = 0
 			}
 		}
+		SPR_fascism_advisor = {
+			allowed = {
+				original_tag = "SPR"
+			}
+			traits = { fascism_minister }
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		SPR_neutrality_advisor = {
 			allowed = {
 				original_tag = "SPR"
@@ -52,6 +66,21 @@ ideas = {
 			do_effect = {
 				NOT = {
 					has_government = neutrality
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		SPR_radical_advisor = {
+			allowed = {
+				original_tag = "SPR"
+			}
+			traits = { radical_minister }
+			picture = "generic_goods_red_bonus"
+			do_effect = {
+				NOT = {
+					has_government = radical
 				}
 			}
 			ai_will_do = {

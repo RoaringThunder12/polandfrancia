@@ -101,6 +101,8 @@ MTG_naval_treaties = {
 			OR = { 
 				has_government = absolutist
 				has_government = communism
+				has_government = fascism
+				has_government = radical
 			}
 		}
 
@@ -186,6 +188,8 @@ MTG_naval_treaties = {
 			OR = {
 				has_government = absolutist
 				has_government = communism
+				has_government = fascism
+				has_government = radical
 			}
 		}
 

@@ -56,7 +56,8 @@ set_politics = {
 set_popularities = {
 	absolutist = 31
 	democratic = 4
-	neutrality = 65
+	fascism = 63
+	neutrality = 2
 }
 
 add_opinion_modifier = { target = BOL modifier = negative_10 }

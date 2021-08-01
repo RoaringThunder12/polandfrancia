@@ -1,6 +1,36 @@
 ﻿capital = 62
 set_research_slots = 3
 
+declare_war_on = {
+	target = ARM
+	type = take_core_state
+	generator = { 16 }
+}
+ENG = {
+	add_to_war = {
+		targeted_alliance = X04
+		enemy = ARM
+	}
+}
+POR = {
+	add_to_war = {
+		targeted_alliance = X04
+		enemy = ARM
+	}
+}
+SPR = {
+	add_to_war = {
+		targeted_alliance = X04
+		enemy = ARM
+	}
+}
+EST = {
+	add_to_war = {
+		targeted_alliance = ARM
+		enemy = X04
+	}
+}
+
 oob = "X04_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -86,7 +116,9 @@ set_popularities = {
 	absolutist = 9
 	communism = 1
 	democratic = 55
-	neutrality = 35
+	fascism = 30
+	neutrality = 4
+	radical = 1
 }
 
 add_opinion_modifier = { target = ARM modifier = negative_200 }

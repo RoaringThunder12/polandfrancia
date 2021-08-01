@@ -48,7 +48,7 @@ set_convoys = 0
 
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = radical
     last_election = "1917.1.1"
     election_frequency = 48
     elections_allowed = no
@@ -57,8 +57,10 @@ set_politics = {
 set_popularities = {
 	absolutist = 17
 	communism = 5
-	democratic = 59
-	neutrality = 19
+	democratic = 43
+	fascism = 9
+	neutrality = 3
+	radical = 23
 }
 
 add_opinion_modifier = { target = ARG modifier = negative_10 }
@@ -134,9 +136,9 @@ set_war_support = 0.60
 create_country_leader = {
 	name = "Manuel Díaz"
 	desc = "POLITICS_MANUEL_DíAZ_DESC"
-	picture = "GFX_SIA_Plaek_Phibunsongk"
+	picture = "gfx/leaders/Asia/portrait_asia_generic_4.dds"
 	expire = "1965.1.1"
-	ideology = minarchism_neutral
+	ideology = minarchism
 	traits = {
 	}
 }

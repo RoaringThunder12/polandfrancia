@@ -62,7 +62,9 @@ set_popularities = {
 	absolutist = 41
 	communism = 1
 	democratic = 35
-	neutrality = 23
+	fascism = 18
+	neutrality = 3
+	radical = 2
 }
 
 add_opinion_modifier = { target = BAN modifier = positive_18 }

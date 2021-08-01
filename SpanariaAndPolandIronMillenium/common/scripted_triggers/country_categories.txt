@@ -42,7 +42,7 @@ tag_fscad= {
 		tag = IVO
 		AND = {
 			tag = RCG
-			OR = { has_government = communism has_government = democratic }
+			OR = { has_government = communism has_government = fascism has_government = radical has_government = democratic }
 		}
 		AND = {
 			tag = TAJ

@@ -285,6 +285,8 @@ governments_in_exile = {
 				OR = {
 					absolutist > 0.1
 					communism > 0.1
+					fascism > 0.1
+					radical > 0.1
 				}
 			}
 		}
@@ -298,6 +300,8 @@ governments_in_exile = {
 				OR = {
 					absolutist > 0.05
 					communism > 0.05
+					fascism > 0.05
+					radical > 0.05
 				}
 			}
 		}
@@ -309,6 +313,8 @@ governments_in_exile = {
 				OR = {
 					absolutist > 0.05
 					communism > 0.05
+					fascism > 0.05
+					radical > 0.05
 				}
 			}
 		}

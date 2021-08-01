@@ -69,7 +69,9 @@ set_popularities = {
 	absolutist = 13
 	communism = 8
 	democratic = 56
-	neutrality = 23
+	fascism = 12
+	neutrality = 3
+	radical = 8
 }
 
 add_opinion_modifier = { target = AUS modifier = negative_15 }

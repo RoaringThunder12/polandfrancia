@@ -115,6 +115,80 @@ country_event = {
 	id = conv.political.4
 	title = conv.political.4.t
 	desc = conv.political.4.d
+	picture = GFX_report_event_fascist_gathering
+
+
+	trigger = {
+		NOT = { has_government = fascism }
+		fascism > 0.6
+		NOT = { fascism > 0.7 }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = conv.political.4.a
+		add_political_power = -100
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = conv.political.4.b
+		ai_chance = {
+			factor = 0
+		}
+		custom_effect_tooltip = impending_civil_war_tt
+	}
+}
+
+country_event = {
+	id = conv.political.5
+	title = conv.political.5.t
+	desc = conv.political.5.d
+	picture = GFX_report_event_gathering_protests
+
+
+	trigger = {
+		NOT = { has_government = radical }
+		radical > 0.6
+		NOT = { radical > 0.7 }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = conv.political.5.a
+		add_political_power = -100
+		set_politics = {
+			ruling_party = radical
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = conv.political.5.b
+		ai_chance = {
+			factor = 0
+		}
+		custom_effect_tooltip = impending_civil_war_tt
+	}
+}
+
+country_event = {
+	id = conv.political.6
+	title = conv.political.6.t
+	desc = conv.political.6.d
 	picture = GFX_report_event_generic_factory
 
 
@@ -134,7 +208,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.4.a
+		name = conv.political.6.a
 		add_popularity = {
 			ideology = absolutist
 			popularity = 0.05
@@ -144,9 +218,9 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.5
-	title = conv.political.5.t
-	desc = conv.political.5.d
+	id = conv.political.7
+	title = conv.political.7.t
+	desc = conv.political.7.d
 	picture = GFX_report_event_generic_factory
 
 
@@ -167,7 +241,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.5.a
+		name = conv.political.7.a
 		add_popularity = {
 			ideology = absolutist
 			popularity = 0.05
@@ -177,9 +251,9 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.6
-	title = conv.political.6.t
-	desc = conv.political.6.d
+	id = conv.political.8
+	title = conv.political.8.t
+	desc = conv.political.8.d
 	picture = GFX_report_event_worker_protests
 
 
@@ -199,7 +273,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.6.a
+		name = conv.political.8.a
 		add_popularity = {
 			ideology = communism
 			popularity = 0.05
@@ -209,9 +283,9 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.7
-	title = conv.political.7.t
-	desc = conv.political.7.d
+	id = conv.political.9
+	title = conv.political.9.t
+	desc = conv.political.9.d
 	picture = GFX_report_event_worker_protests
 
 
@@ -232,7 +306,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.7.a
+		name = conv.political.9.a
 		add_popularity = {
 			ideology = communism
 			popularity = 0.05
@@ -242,9 +316,139 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.8
-	title = conv.political.8.t
-	desc = conv.political.8.d
+	id = conv.political.10
+	title = conv.political.10.t
+	desc = conv.political.10.d
+	picture = GFX_report_event_fascist_gathering
+
+
+	trigger = {
+		has_idea_with_trait = fascism_minister
+		NOT = { has_government = fascism }
+		fascism > 0.2
+		NOT = { fascism > 0.59 }
+	}
+
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.5
+			has_country_flag = fascism_popular_movement
+		}
+	}
+
+	option = {
+		name = conv.political.10.a
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = conv.political.11
+	title = conv.political.11.t
+	desc = conv.political.11.d
+	picture = GFX_report_event_fascist_gathering
+
+
+	trigger = {
+		has_idea_with_trait = fascism_minister
+		NOT = { has_government = fascism }
+		fascism > 0.3
+		NOT = { fascism > 0.59 }
+		NOT = { has_idea = fascism_partisans_recruiting }
+	}
+
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.5
+			has_country_flag = fascism_popular_movement
+		}
+	}
+
+	option = {
+		name = conv.political.11.a
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_ideas = fascism_partisans_recruiting
+	}
+}
+
+country_event = {
+	id = conv.political.12
+	title = conv.political.12.t
+	desc = conv.political.12.d
+	picture = GFX_report_event_gathering_protests
+
+
+	trigger = {
+		has_idea_with_trait = radical_minister
+		NOT = { has_government = radical }
+		radical > 0.2
+		NOT = { radical > 0.59 }
+	}
+
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.5
+			has_country_flag = radical_popular_movement
+		}
+	}
+
+	option = {
+		name = conv.political.12.a
+		add_popularity = {
+			ideology = radical
+			popularity = 0.05
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = conv.political.13
+	title = conv.political.13.t
+	desc = conv.political.13.d
+	picture = GFX_report_event_gathering_protests
+
+
+	trigger = {
+		has_idea_with_trait = radical_minister
+		NOT = { has_government = radical }
+		radical > 0.3
+		NOT = { radical > 0.59 }
+		NOT = { has_idea = radical_partisans_recruiting }
+	}
+
+	mean_time_to_happen = {
+		days = 365
+		modifier = {
+			factor = 0.5
+			has_country_flag = radical_popular_movement
+		}
+	}
+
+	option = {
+		name = conv.political.13.a
+		add_popularity = {
+			ideology = radical
+			popularity = 0.05
+		}
+		add_ideas = radical_partisans_recruiting
+	}
+}
+
+country_event = {
+	id = conv.political.14
+	title = conv.political.14.t
+	desc = conv.political.14.d
 	picture = GFX_report_event_journalists_speech
 
 
@@ -265,7 +469,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.8.a
+		name = conv.political.14.a
 		add_popularity = {
 			ideology = democratic
 			popularity = 0.05
@@ -276,9 +480,9 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.9
-	title = conv.political.9.t
-	desc = conv.political.9.d
+	id = conv.political.15
+	title = conv.political.15.t
+	desc = conv.political.15.d
 	picture = GFX_report_event_journalists_speech
 
 
@@ -294,12 +498,12 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.9.a
+		name = conv.political.15.a
 		ai_chance = { base = 1 }
 	}
 
 	option = {
-		name = conv.political.9.b
+		name = conv.political.15.b
 		ai_chance = { base = 1 }
 		add_political_power = -20
 		add_ideas = democratic_opposition_voicing_protests
@@ -308,15 +512,15 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.10
-	title = conv.political.10.t
-	desc = conv.political.10.d
+	id = conv.political.16
+	title = conv.political.16.t
+	desc = conv.political.16.d
 	picture = GFX_report_event_generic_factory
 
 	is_triggered_only = yes
 
 	option = {
-		name = conv.political.10.c
+		name = conv.political.16.c
 		set_politics = {
 			ruling_party = absolutist
 			elections_allowed = no
@@ -326,15 +530,15 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.11
-	title = conv.political.11.t
-	desc = conv.political.11.d
+	id = conv.political.17
+	title = conv.political.17.t
+	desc = conv.political.17.d
 	picture = GFX_report_event_worker_protests
 
 	is_triggered_only = yes
 
 	option = {
-		name = conv.political.11.c
+		name = conv.political.17.c
 		set_politics = {
 			ruling_party = communism
 			elections_allowed = no
@@ -344,15 +548,15 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.12
-	title = conv.political.12.t
-	desc = conv.political.12.d
+	id = conv.political.18
+	title = conv.political.18.t
+	desc = conv.political.18.d
 	picture = GFX_report_event_journalists_speech
 
 	is_triggered_only = yes
 
 	option = {
-		name = conv.political.12.c
+		name = conv.political.18.c
 		if = {
 			limit = { has_government = absolutist }
 			add_timed_idea = { idea = absolutist_defeated days = 730 }
@@ -360,6 +564,14 @@ country_event = {
 		if = {
 			limit = { has_government = communism }
 			add_timed_idea = { idea = communism_defeated days = 730 }
+		}
+		if = {
+			limit = { has_government = fascism }
+			add_timed_idea = { idea = fascism_defeated days = 730 }
+		}
+		if = {
+			limit = { has_government = radical }
+			add_timed_idea = { idea = radical_defeated days = 730 }
 		}
 		set_politics = {
 			ruling_party = democratic
@@ -371,9 +583,45 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.13
-	title = conv.political.13.t
-	desc = conv.political.13.d
+	id = conv.political.19
+	title = conv.political.19.t
+	desc = conv.political.19.d
+	picture = GFX_report_event_fascist_gathering
+
+	is_triggered_only = yes
+
+	option = {
+		name = conv.political.19.c
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = conv.political.20
+	title = conv.political.20.t
+	desc = conv.political.20.d
+	picture = GFX_report_event_gathering_protests
+
+	is_triggered_only = yes
+
+	option = {
+		name = conv.political.20.c
+		set_politics = {
+			ruling_party = radical
+			elections_allowed = no
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = conv.political.21
+	title = conv.political.21.t
+	desc = conv.political.21.d
 	picture = GFX_report_event_generic_factory
 
 
@@ -393,7 +641,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.13.a
+		name = conv.political.21.a
 		ai_chance = {
 			factor = 0
 		}
@@ -404,7 +652,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.13.b
+		name = conv.political.21.b
 		ai_chance = {
 			factor = 0
 		}
@@ -430,6 +678,16 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_government = fascism
+			}
+			start_civil_war = {
+				ruling_party = absolutist
+				ideology = fascism
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
 				has_government = neutrality
 			}
 			start_civil_war = {
@@ -438,10 +696,20 @@ country_event = {
 				size = 0.5
 			}
 		}
+		if = {
+			limit = {
+				has_government = radical
+			}
+			start_civil_war = {
+				ruling_party = absolutist
+				ideology = radical
+				size = 0.5
+			}
+		}
 	}
 
 	option = {
-		name = conv.political.13.c
+		name = conv.political.21.c
 		trigger = {
 			is_ai = yes
 		}
@@ -454,9 +722,9 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.14
-	title = conv.political.14.t
-	desc = conv.political.14.d
+	id = conv.political.22
+	title = conv.political.22.t
+	desc = conv.political.22.d
 	picture = GFX_report_event_worker_protests
 
 
@@ -476,7 +744,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.14.a
+		name = conv.political.22.a
 		ai_chance = {
 			factor = 0
 		}
@@ -487,7 +755,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.14.b
+		name = conv.political.22.b
 		ai_chance = {
 			factor = 0
 		}
@@ -513,6 +781,16 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_government = fascism
+			}
+			start_civil_war = {
+				ruling_party = communism
+				ideology = fascism
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
 				has_government = neutrality
 			}
 			start_civil_war = {
@@ -521,10 +799,20 @@ country_event = {
 				size = 0.5
 			}
 		}
+		if = {
+			limit = {
+				has_government = radical
+			}
+			start_civil_war = {
+				ruling_party = communism
+				ideology = radical
+				size = 0.5
+			}
+		}
 	}
 
 	option = {
-		name = conv.political.14.c
+		name = conv.political.22.c
 		trigger = {
 			is_ai = yes
 		}
@@ -537,9 +825,9 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.15
-	title = conv.political.15.t
-	desc = conv.political.15.d
+	id = conv.political.23
+	title = conv.political.23.t
+	desc = conv.political.23.d
 	picture = GFX_report_event_journalists_speech
 
 
@@ -559,7 +847,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.15.a
+		name = conv.political.23.a
 		ai_chance = {
 			factor = 0
 		}
@@ -570,7 +858,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.15.b
+		name = conv.political.23.b
 		ai_chance = {
 			factor = 0
 		}
@@ -600,6 +888,18 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_government = fascism
+			}
+			add_timed_idea = { idea = fascism_defeated days = 730 }
+			start_civil_war = {
+				ruling_party = democratic
+				ideology = fascism
+				size = 0.5
+			}
+			hold_election = ROOT
+		}
+		if = {
+			limit = {
 				has_government = neutrality
 			}
 			start_civil_war = {
@@ -609,10 +909,22 @@ country_event = {
 			}
 			hold_election = ROOT
 		}
+		if = {
+			limit = {
+				has_government = radical
+			}
+			add_timed_idea = { idea = radical_defeated days = 730 }
+			start_civil_war = {
+				ruling_party = democratic
+				ideology = radical
+				size = 0.5
+			}
+			hold_election = ROOT
+		}
 	}
 
 	option = {
-		name = conv.political.15.c
+		name = conv.political.23.c
 		trigger = {
 			is_ai = yes
 		}
@@ -625,9 +937,215 @@ country_event = {
 }
 
 country_event = {
-	id = conv.political.16
-	title = conv.political.16.t
-	desc = conv.political.16.d
+	id = conv.political.24
+	title = conv.political.24.t
+	desc = conv.political.24.d
+	picture = GFX_report_event_fascist_gathering
+
+
+	trigger = {
+		fascism > 0.7
+		num_of_controlled_states > 1
+		NOT = { has_government = fascism }
+		has_civil_war = no
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = fascism_revolutionaries }
+	}
+
+	option = {
+		name = conv.political.24.a
+		ai_chance = {
+			factor = 0
+		}
+		start_civil_war = {
+			ideology = fascism
+			size = 0.5
+		}
+	}
+
+	option = {
+		name = conv.political.24.b
+		ai_chance = {
+			factor = 0
+		}
+		if = {
+			limit = {
+				has_government = absolutist
+			}
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = absolutist
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = communism
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = democratic
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = neutrality
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = radical
+			}
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = radical
+				size = 0.5
+			}
+		}
+	}
+
+	option = {
+		name = conv.political.24.c
+		trigger = {
+			is_ai = yes
+		}
+		add_political_power = -100
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+	}
+}
+
+country_event = {
+	id = conv.political.25
+	title = conv.political.25.t
+	desc = conv.political.25.d
+	picture = GFX_report_event_gathering_protests
+
+
+	trigger = {
+		radical > 0.7
+		num_of_controlled_states > 1
+		NOT = { has_government = radical }
+		has_civil_war = no
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		hidden_effect = { remove_ideas = radical_revolutionaries }
+	}
+
+	option = {
+		name = conv.political.25.a
+		ai_chance = {
+			factor = 0
+		}
+		start_civil_war = {
+			ideology = radical
+			size = 0.5
+		}
+	}
+
+	option = {
+		name = conv.political.25.b
+		ai_chance = {
+			factor = 0
+		}
+		if = {
+			limit = {
+				has_government = absolutist
+			}
+			start_civil_war = {
+				ruling_party = radical
+				ideology = absolutist
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = communism
+			}
+			start_civil_war = {
+				ruling_party = radical
+				ideology = communism
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = democratic
+			}
+			start_civil_war = {
+				ruling_party = radical
+				ideology = democratic
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = fascism
+			}
+			start_civil_war = {
+				ruling_party = radical
+				ideology = fascism
+				size = 0.5
+			}
+		}
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			start_civil_war = {
+				ruling_party = radical
+				ideology = neutrality
+				size = 0.5
+			}
+		}
+	}
+
+	option = {
+		name = conv.political.25.c
+		trigger = {
+			is_ai = yes
+		}
+		add_political_power = -100
+		set_politics = {
+			ruling_party = radical
+			elections_allowed = no
+		}
+	}
+}
+
+country_event = {
+	id = conv.political.26
+	title = conv.political.26.t
+	desc = conv.political.26.d
 	picture = GFX_report_event_generic_factory
 
 
@@ -641,15 +1159,15 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.16.a
+		name = conv.political.26.a
 		remove_ideas = absolutist_revolutionaries
 	}
 }
 
 country_event = {
-	id = conv.political.17
-	title = conv.political.17.t
-	desc = conv.political.17.d
+	id = conv.political.27
+	title = conv.political.27.t
+	desc = conv.political.27.d
 	picture = GFX_report_event_worker_protests
 
 
@@ -663,15 +1181,15 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.17.a
+		name = conv.political.27.a
 		remove_ideas = communism_revolutionaries
 	}
 }
 
 country_event = {
-	id = conv.political.18
-	title = conv.political.18.t
-	desc = conv.political.18.d
+	id = conv.political.28
+	title = conv.political.28.t
+	desc = conv.political.28.d
 	picture = GFX_report_event_journalists_speech
 
 
@@ -685,21 +1203,73 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.18.a
+		name = conv.political.28.a
 		remove_ideas = democratic_revolutionaries
 	}
 }
 
 country_event = {
-	id = conv.political.19
-	title = conv.political.19.t
+	id = conv.political.29
+	title = conv.political.29.t
+	desc = conv.political.29.d
+	picture = GFX_report_event_fascist_gathering
+
+
+	trigger = {
+		fascism < 0.3
+		has_idea = fascism_revolutionaries
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = conv.political.29.a
+		remove_ideas = fascism_revolutionaries
+	}
+}
+
+country_event = {
+	id = conv.political.30
+	title = conv.political.30.t
+	desc = conv.political.30.d
+	picture = GFX_report_event_gathering_protests
+
+
+	trigger = {
+		radical < 0.3
+		has_idea = radical_revolutionaries
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = conv.political.30.a
+		remove_ideas = radical_revolutionaries
+	}
+}
+
+country_event = {
+	id = conv.political.31
+	title = conv.political.31.t
 	desc = {
-		text = political.19.d_absolutist
+		text = political.31.d_absolutist
 		trigger = { has_government = absolutist }
 	}
 	desc = {
-		text = political.19.d_communism
+		text = political.31.d_communism
 		trigger = { has_government = communism }
+	}
+	desc = {
+		text = political.31.d_fascism
+		trigger = { has_government = fascism }
+	}
+	desc = {
+		text = political.31.d_radical
+		trigger = { has_government = radical }
 	}
 	picture = GFX_report_event_journalists_speech
 
@@ -708,6 +1278,8 @@ country_event = {
 		OR = {
 			has_government = absolutist
 			has_government = communism
+			has_government = fascism
+			has_government = radical
 		}
 		has_idea = neutrality_idea
 	}
@@ -717,7 +1289,7 @@ country_event = {
 	}
 
 	option = {
-		name = conv.political.19.a
+		name = conv.political.31.a
 		remove_ideas = neutrality_idea
 	}
 }

@@ -30,7 +30,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 24
+		x = 28
 		y = 0
 		cost = 10
 		available = {
