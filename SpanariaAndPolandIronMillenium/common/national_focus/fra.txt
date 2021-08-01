@@ -1,0 +1,690 @@
+focus_tree = {
+	id = fra
+	continuous_focus_position = { x = 0 y = 2000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	#The Collapse of the Franc
+	focus = {
+		id = FRA_the_collapse_of_the_franc
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 6
+		y = 0
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+		}
+	}
+
+	#The Armies Of The Revolution
+	focus = {
+		id = FRA_the_armies_of_the_revolution
+		icon = GFX_focus_ger_great_red_menace
+		x = 14
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		available = {
+			has_civil_war = no
+			
+			has_completed_focus = FRA_one_france
+			
+			
+		}
+	}
+
+	#Seize Private Holdings
+	focus = {
+		id = FRA_seize_private_holdings
+		icon = GFX_focus_BUL_destroy_the_zveno
+		x = 3
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_the_collapse_of_the_franc  }
+		mutually_exclusive = { focus = FRA_give_loans_to_small_buisness  }
+	}
+
+	#Give Loans to Small Buisness
+	focus = {
+		id = FRA_give_loans_to_small_buisness
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 9
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_the_collapse_of_the_franc  }
+		mutually_exclusive = { focus = FRA_seize_private_holdings  }
+	}
+
+	#Government Sponsered Healthcare
+	focus = {
+		id = FRA_government_sponsered_healthcare
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_seize_private_holdings  focus = FRA_give_loans_to_small_buisness  }
+	}
+
+	#The Peaseants Union
+	focus = {
+		id = FRA_the_peaseants_union
+		icon = GFX_FRA_the_peaseants_union-88
+		x = 8
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_give_loans_to_small_buisness  }
+	}
+
+	#Collectivized Farms
+	focus = {
+		id = FRA_collectivized_farms
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_seize_private_holdings  }
+	}
+
+	#Found the French Labor Association
+	focus = {
+		id = FRA_found_the_french_labor_association
+		icon = GFX_focus_por_workers_of_iberia
+		x = 8
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_the_peaseants_union  }
+	}
+
+	#Issue Ban on Monopolies
+	focus = {
+		id = FRA_issue_ban_on_monopolies
+		icon = GFX_focus_eng_crush_the_dream
+		x = 9
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_give_loans_to_small_buisness  }
+	}
+
+	#Streamlined Industry
+	focus = {
+		id = FRA_streamlined_industry
+		icon = GFX_focus_generic_industry_3
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_seize_private_holdings  }
+	}
+
+	#Sell French Africa
+	focus = {
+		id = FRA_sell_french_africa
+		icon = GFX_focus_generic_africa_factory
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_collectivized_farms  } prerequisite = { focus = FRA_streamlined_industry  }
+	}
+
+	#Grow Government Industries
+	focus = {
+		id = FRA_grow_government_industries
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_collectivized_farms  }
+	}
+
+	#Personal Freedom for Workers
+	focus = {
+		id = FRA_personal_freedom_for_workers
+		icon = GFX_goal_continuous_boost_freedom
+		x = 7
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_the_peaseants_union  } prerequisite = { focus = FRA_government_sponsered_healthcare  }
+	}
+
+	#Disband Useless Goverment Jobs
+	focus = {
+		id = FRA_disband_useless_goverment_jobs
+		icon = GFX_focus_BUL_form_a_regency_council
+		x = 4
+		y = 5
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_sell_french_africa  } prerequisite = { focus = FRA_grow_government_industries  }
+	}
+
+	#Re-Arm The Vanguard
+	focus = {
+		id = FRA_rearm_the_vanguard
+		icon = GFX_focus_attack_france
+		x = 9
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_issue_ban_on_monopolies  } prerequisite = { focus = FRA_found_the_french_labor_association  }
+	}
+
+	#The Fourth Republic
+	focus = {
+		id = FRA_the_fourth_republic
+		icon = GFX_FRA_the_fourth_republic-91
+		x = 8
+		y = 6
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_personal_freedom_for_workers  } prerequisite = { focus = FRA_rearm_the_vanguard  }
+	}
+
+	#Wealth Redistribution
+	focus = {
+		id = FRA_wealth_redistribution
+		icon = GFX_focus_generic_soviet_politics
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_streamlined_industry  }
+	}
+
+	#Withdraw Scientiffic Spending
+	focus = {
+		id = FRA_withdraw_scientiffic_spending
+		icon = GFX_focus_generic_socialist_science
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = FRA_wealth_redistribution  }
+	}
+
+	#Found The D.I.P.A.
+	focus = {
+		id = FRA_found_the_dipa
+		icon = GFX_FRA_found_the_dipa-170
+		x = 3
+		y = 6
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_withdraw_scientiffic_spending  } prerequisite = { focus = FRA_disband_useless_goverment_jobs  }
+	}
+
+	#Silence Political Opponents
+	focus = {
+		id = FRA_silence_political_opponents
+		icon = GFX_focus_generic_air_defense
+		x = 5
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_found_the_dipa  }
+	}
+
+	#Civil War Recovery
+	focus = {
+		id = FRA_civil_war_recovery
+		icon = GFX_focus_BUL_condemn_macedonian_organizations
+		x = 9
+		y = 7
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_the_fourth_republic  }
+		available = {
+			has_civil_war = no
+			
+		}
+	}
+
+	#One France
+	focus = {
+		id = FRA_one_france
+		icon = GFX_FRA_one_france-170
+		x = 6
+		y = 8
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_silence_political_opponents  focus = FRA_civil_war_recovery  }
+		mutually_exclusive = { focus = FRA_union_of_european_commonwealths  }
+	}
+
+	#Army Drill
+	focus = {
+		id = FRA_army_drill
+		icon = GFX_focus_mex_soldaderas
+		x = 13
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = FRA_the_armies_of_the_revolution  }
+	}
+
+	#Construct Modern Naval Infrastructure
+	focus = {
+		id = FRA_construct_modern_naval_infrastructure
+		icon = GFX_focus_generic_navy_battleship2
+		x = 16
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_the_armies_of_the_revolution  }
+	}
+
+	#A Flexible Fleet
+	focus = {
+		id = FRA_a_flexible_fleet
+		icon = GFX_goal_generic_navy_submarine
+		x = 15
+		y = 2
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_construct_modern_naval_infrastructure  }
+		mutually_exclusive = { focus = FRA_a_floating_fortress  }
+	}
+
+	#A Floating Fortress
+	focus = {
+		id = FRA_a_floating_fortress
+		icon = GFX_goal_generic_navy_carrier
+		x = 17
+		y = 2
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = FRA_construct_modern_naval_infrastructure  }
+		mutually_exclusive = { focus = FRA_a_flexible_fleet  }
+	}
+
+	#Red Navy Doctrine
+	focus = {
+		id = FRA_red_navy_doctrine
+		icon = GFX_goal_generic_navy_cruiser
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = FRA_a_floating_fortress  focus = FRA_a_flexible_fleet  }
+	}
+
+	#Mobile Warfare
+	focus = {
+		id = FRA_mobile_warfare
+		icon = GFX_FRA_mobile_warfare-145
+		x = 13
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = FRA_army_drill  }
+	}
+
+	#Modern Weapons Development
+	focus = {
+		id = FRA_modern_weapons_development
+		icon = GFX_focus_generic_socialist_science
+		x = 13
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = FRA_mobile_warfare  }
+	}
+
+	#The Redwing Operation
+	focus = {
+		id = FRA_the_redwing_operation
+		icon = GFX_goal_generic_build_airforce
+		x = 15
+		y = 4
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = FRA_red_navy_doctrine  } prerequisite = { focus = FRA_modern_weapons_development  }
+	}
+
+	#Revenge For The Rhine
+	focus = {
+		id = FRA_revenge_for_the_rhine
+		icon = GFX_FRA_revenge_for_the_rhine-431
+		x = 5
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = FRA_operation_guerre_fluviale  }
+	}
+
+	#Operation Guerre Fluviale
+	focus = {
+		id = FRA_operation_guerre_fluviale
+		icon = GFX_focus_BUL_condemn_macedonian_organizations
+		x = 6
+		y = 9
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = FRA_one_france  }
+	}
+
+	#Integrate The Swiss
+	focus = {
+		id = FRA_integrate_the_swiss
+		icon = GFX_focus_attack_switzerland
+		x = 7
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = FRA_operation_guerre_fluviale  }
+	}
+
+	#Demand Corsica
+	focus = {
+		id = FRA_demand_corsica
+		icon = GFX_focus_befriend_italy
+		x = 7
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = FRA_operation_guerre_fluviale  focus = FRA_the_fourth_republic  }
+	}
+
+	#Spread The Revolution
+	focus = {
+		id = FRA_spread_the_revolution
+		icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
+		x = 1
+		y = 7
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = FRA_found_the_dipa  }
+	}
+
+	#Spread Revolution to Southern Slaves
+	focus = {
+		id = FRA_spread_revolution_to_southern_slaves
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		x = 0
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_spread_the_revolution  }
+	}
+
+	#Supply German Communists
+	focus = {
+		id = FRA_supply_german_communists
+		icon = GFX_FRA_supply_german_communists-59
+		x = 2
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_spread_the_revolution  }
+	}
+
+	#Contact The Red Baron
+	focus = {
+		id = FRA_contact_the_red_baron
+		icon = GFX_focus_fra_milice
+		x = 4
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_spread_the_revolution  }
+	}
+
+	#Support Mafia Families
+	focus = {
+		id = FRA_support_mafia_families
+		icon = GFX_focus_befriend_italy
+		x = 4
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_contact_the_red_baron  }
+	}
+
+	#The Reichstag Bombing
+	focus = {
+		id = FRA_the_reichstag_bombing
+		icon = GFX_focus_BUL_destroy_the_zveno
+		x = 2
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_supply_german_communists  }
+	}
+
+	#Promises of Freedom...
+	focus = {
+		id = FRA_promisesoffreedom
+		icon = GFX_FRA_promisesoffreedom-298
+		x = 0
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_spread_revolution_to_southern_slaves  }
+	}
+
+	#The Red Day
+	focus = {
+		id = FRA_the_red_day
+		icon = GFX_focus_BUL_support_macedonian_organizations
+		x = 2
+		y = 11
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		prerequisite = { focus = FRA_support_mafia_families  } prerequisite = { focus = FRA_the_reichstag_bombing  } prerequisite = { focus = FRA_promisesoffreedom  }
+	}
+
+	#Union Of European Commonwealths
+	focus = {
+		id = FRA_union_of_european_commonwealths
+		icon = GFX_focus_usa_union_representation_act
+		x = 11
+		y = 8
+		cost = 20
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_demand_corsica  } prerequisite = { focus = FRA_civil_war_recovery  }
+		mutually_exclusive = { focus = FRA_one_france  }
+	}
+
+	#Send Delegates To The Entente
+	focus = {
+		id = FRA_send_delegates_to_the_entente
+		icon = GFX_focus_AST_rats_tobruk
+		x = 9
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_union_of_european_commonwealths  }
+	}
+
+	#Send Delegates To The Central Bloc
+	focus = {
+		id = FRA_send_delegates_to_the_central_bloc
+		icon = GFX_focus_BUL_the_third_bulgarian_empire
+		x = 13
+		y = 9
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_union_of_european_commonwealths  }
+	}
+
+	#Invite Britain
+	focus = {
+		id = FRA_invite_britain
+		icon = GFX_FRA_invite_britain-44
+		x = 8
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_send_delegates_to_the_entente  }
+	}
+
+	#Invite Poland
+	focus = {
+		id = FRA_invite_poland
+		icon = GFX_focus_generic_polish_deal
+		x = 9
+		y = 11
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_send_delegates_to_the_entente  }
+	}
+
+	#Invite Germany
+	focus = {
+		id = FRA_invite_germany
+		icon = GFX_focus_chi_mission_to_germany
+		x = 12
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_send_delegates_to_the_central_bloc  }
+	}
+
+	#Invite Italy
+	focus = {
+		id = FRA_invite_italy
+		icon = GFX_focus_befriend_italy
+		x = 14
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_send_delegates_to_the_central_bloc  }
+	}
+
+	#Invite Scandinavia
+	focus = {
+		id = FRA_invite_scandinavia
+		icon = GFX_focus_invite_finland
+		x = 13
+		y = 11
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_send_delegates_to_the_central_bloc  }
+	}
+
+	#Invite Hungary
+	focus = {
+		id = FRA_invite_hungary
+		icon = GFX_FRA_invite_hungary-259
+		x = 10
+		y = 10
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = FRA_send_delegates_to_the_entente  }
+	}
+
+}
