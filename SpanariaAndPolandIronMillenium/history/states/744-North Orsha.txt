@@ -1,12 +1,11 @@
-
 state={
-	id=375
-	name="STATE_375"
-
+	id=744
+	name="North Orsha"
+	
 	history={
-		owner = HUN
+		owner = EST
 		victory_points = {
-			6429 1 
+			6354 1 
 		}
 		buildings = {
 			infrastructure = 5
@@ -15,15 +14,14 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = HUN
 		add_core_of = X31
-		add_claim_by = EST
+		add_core_of = EST
 	}
-
+	
 	provinces={
-		422 474 513 535 572 3412 3430 3457 3496 3511 6429 6435 6509 6520 6557 9520 9533 11441 11503 11543 6579
+		6249 3219 6326 9323 323
 	}
-	manpower=1265624
+	manpower=592358
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

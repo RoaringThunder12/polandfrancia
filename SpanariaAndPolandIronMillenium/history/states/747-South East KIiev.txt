@@ -1,0 +1,24 @@
+state={
+	id=747
+	name="South East Kiev"
+	
+	history={
+		owner = EST
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X31
+		add_core_of = EST
+		add_core_of = HUN
+	}
+	provinces={
+		6495 3455 501 3520 11462 6507 11504 11397 9463 9479 6578 3508 9519 559 9413 511 3557 418 9556 3531 9491
+	}
+	manpower=575375
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+state={
+	id=746
+	name="East Kiev"
+	
+	history={
+		owner = EST
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X31
+		add_core_of = EST
+		add_core_of = HUN
+	}
+	
+	provinces={
+		11553 11557 11530 6532 6458 582 9543 6508 9477 522 6565 9566 3225 3480 11489 9437 3584 6605 463 11425 
+	}
+	manpower=575375
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

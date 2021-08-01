@@ -1,31 +1,25 @@
-
 state={
-	id=558
-	name="STATE_558"
-
+	id=745
+	name="North Kiev"
+	
 	history={
-		owner = X31
-		victory_points = {
-			6332 2 
-		}
+		owner = EST
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-			arms_factory = 0
-			dockyard = 1
-			6332 = {
-				naval_base = 6
-			}
+			arms_factory = 1
 			air_base = 0
 
 		}
 		add_core_of = X31
+		add_core_of = EST
+		add_core_of = HUN
 	}
-
+	
 	provinces={
-		281 348 395 3384 6332 11265 
+		489 3568 546 9506 6589 3542 238
 	}
-	manpower=1706252
+	manpower=575375
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
