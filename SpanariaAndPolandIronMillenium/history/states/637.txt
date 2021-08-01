@@ -1,0 +1,30 @@
+
+state={
+	id=637
+	name="STATE_637"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			4095 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		950 1090 1192 4095 7196 10111 12083 
+	}
+	manpower=294816
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

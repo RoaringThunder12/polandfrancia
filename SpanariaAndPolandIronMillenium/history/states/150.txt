@@ -1,0 +1,30 @@
+
+state={
+	id=150
+	name="STATE_150"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = X07
+		victory_points = {
+			1984 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X07
+	}
+
+	provinces={
+		1984 2040 2072 4954 5041 5097 7944 
+	}
+	manpower=1241364
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

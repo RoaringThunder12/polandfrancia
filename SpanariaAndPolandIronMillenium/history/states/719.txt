@@ -1,0 +1,33 @@
+
+state={
+	id=719
+	name="STATE_719"
+	resources={
+		aluminium=33.000
+	}
+
+	history={
+		owner = X49
+		victory_points = {
+			10947 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			5167 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X49
+	}
+
+	provinces={
+		1583 5112 5167 5186 7553 7636 10360 10432 10513 10947 10994 11003 11008 12438 12937 12972 
+	}
+	manpower=1758140
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=519
+	name="STATE_519"
+
+	history={
+		owner = MOR
+		victory_points = {
+			12003 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12003 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		12003 
+	}
+	manpower=109696
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

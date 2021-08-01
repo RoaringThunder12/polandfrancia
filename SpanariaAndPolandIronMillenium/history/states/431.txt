@@ -1,0 +1,31 @@
+
+state={
+	id=431
+	name="STATE_431"
+
+	history={
+		owner = JAP
+		victory_points = {
+			7115 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			1123 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		1123 7115 10124 11932 
+	}
+	manpower=286408
+	buildings_max_level_factor=1.000
+	state_category=city
+}

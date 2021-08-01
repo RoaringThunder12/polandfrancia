@@ -1,0 +1,45 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4073
+		task_force = {
+			name = "2nd Fleet"
+			location = 8282
+			ship = { name = "Don" definition = destroyer start_experience_factor = 0.18742 equipment = { ship_hull_light_1 = { amount = 1 owner = EST version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 3151
+		task_force = {
+			name = "6th Fleet"
+			location = 3151
+			ship = { name = "Ravan" definition = destroyer start_experience_factor = 0.14701 equipment = { ship_hull_light_1 = { amount = 1 owner = EST version_name = "Early Destroyer" } } }
+			ship = { name = "Svir" definition = destroyer start_experience_factor = 0.1452 equipment = { ship_hull_light_1 = { amount = 1 owner = EST version_name = "Early Destroyer" } } }
+			ship = { name = "Seim" definition = destroyer start_experience_factor = 0.19361 equipment = { ship_hull_light_1 = { amount = 1 owner = EST version_name = "Early Destroyer" } } }
+			ship = { name = "Sestra" definition = destroyer start_experience_factor = 0.1992 equipment = { ship_hull_light_1 = { amount = 1 owner = EST version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 772
+		task_force = {
+			name = "7th Fleet"
+			location = 772
+			ship = { name = "Yeya" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = EST version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "EST"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

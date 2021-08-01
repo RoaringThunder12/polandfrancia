@@ -1,0 +1,36 @@
+
+state={
+	id=485
+	name="STATE_485"
+	resources={
+		rubber=238.000
+		steel=11.000
+		tungsten=88.000
+	}
+
+	history={
+		owner = MAL
+		victory_points = {
+			7342 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12144 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAL
+		add_core_of = X21
+	}
+
+	provinces={
+		1291 1364 1376 4310 7342 12144 12215 
+	}
+	manpower=169720
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

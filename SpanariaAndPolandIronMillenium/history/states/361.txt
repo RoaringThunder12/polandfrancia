@@ -1,0 +1,30 @@
+
+state={
+	id=361
+	name="STATE_361"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			686 6 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 4
+			air_base = 3
+
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		682 686 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 
+	}
+	manpower=4021860
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

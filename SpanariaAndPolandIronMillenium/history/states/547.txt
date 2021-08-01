@@ -1,0 +1,29 @@
+
+state={
+	id=547
+	name="STATE_547"
+
+	history={
+		owner = X30
+		victory_points = {
+			12251 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12251 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+	}
+
+	provinces={
+		10321 12251 
+	}
+	manpower=13288
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

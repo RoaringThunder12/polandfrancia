@@ -1,0 +1,45 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10070
+		task_force = {
+			name = "1st Fleet"
+			location = 10070
+			ship = { name = "Amin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Anwar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Alif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Ayham" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Bahir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Dhakwan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Falah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Amin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Alif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Hanbal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Faraj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Fawzan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Ghanim" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+			ship = { name = "Haris" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MOR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "MOR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "MOR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

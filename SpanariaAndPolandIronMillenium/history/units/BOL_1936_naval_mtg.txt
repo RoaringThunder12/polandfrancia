@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 5131
+		task_force = {
+			name = "2nd Fleet"
+			location = 5131
+			ship = { name = "1st Huaraz Battleship" definition = heavy_cruiser start_experience_factor = 0.05 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Piura Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Huaraz Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Piura Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Huaraz Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Cobija" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Desaguadero" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Illimani" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Illampu" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Madera" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BOL version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "BOL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "BOL"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=104
+	name="STATE_104"
+
+	history={
+		owner = X05
+		victory_points = {
+			13072 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			13072 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = X05
+	}
+
+	provinces={
+		13072 
+	}
+	manpower=75724
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

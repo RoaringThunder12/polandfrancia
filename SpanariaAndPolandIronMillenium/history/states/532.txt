@@ -1,0 +1,36 @@
+
+state={
+	id=532
+	name="STATE_532"
+	resources={
+		aluminium=82.000
+		oil=6.000
+		steel=10.000
+	}
+
+	history={
+		owner = X24
+		victory_points = {
+			8051 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8051 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = SAU
+		add_core_of = X24
+	}
+
+	provinces={
+		2048 7960 8051 8108 10904 
+	}
+	manpower=59824
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

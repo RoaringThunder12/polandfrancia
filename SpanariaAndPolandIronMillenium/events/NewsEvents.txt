@@ -1,0 +1,121 @@
+﻿add_namespace = news
+
+news_event = {
+	id = news.500
+	title = "Austria formalizes alliance with France"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.501
+	title = "Austria refuses the alliance offer of France"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.502
+	title = "Poland-Lithuania formalizes alliance with France"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.503
+	title = "Poland-Lithuania refuses the alliance offer of France"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.504
+	title = "Austria formalizes alliance with Poland-Lithuania"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.505
+	title = "Austria refuses the alliance offer of Poland-Lithuania"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.506
+	title = "France formalizes alliance with Poland-Lithuania"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.507
+	title = "France refuses the alliance offer of Poland-Lithuania"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}

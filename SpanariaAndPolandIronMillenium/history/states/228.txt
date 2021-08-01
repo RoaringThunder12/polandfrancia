@@ -1,0 +1,37 @@
+
+state={
+	id=228
+	name="STATE_228"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			4952 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			4952 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		ITA = {
+			set_province_controller = 4952
+		}
+	}
+
+	provinces={
+		4952 8034 
+	}
+	manpower=1590020
+	buildings_max_level_factor=1.000
+	state_category=town
+}

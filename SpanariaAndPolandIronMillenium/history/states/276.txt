@@ -1,0 +1,31 @@
+
+state={
+	id=276
+	name="STATE_276"
+	resources={
+		oil=16.000
+		steel=1.000
+	}
+
+	history={
+		owner = EST
+		victory_points = {
+			4458 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = EST
+	}
+
+	provinces={
+		4458 4545 
+	}
+	manpower=109820
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

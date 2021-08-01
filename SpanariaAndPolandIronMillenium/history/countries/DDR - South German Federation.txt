@@ -1,0 +1,305 @@
+﻿capital = 620
+set_research_slots = 3
+
+oob = "DDR_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "DDR_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "DDR_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1917.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 31
+	communism = 0
+	democratic = 52
+	neutrality = 17
+}
+
+add_opinion_modifier = { target = ARM modifier = negative_200 }
+add_opinion_modifier = { target = AUS modifier = negative_128 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = CRO modifier = negative_5 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_194 }
+add_opinion_modifier = { target = EST modifier = negative_200 }
+add_opinion_modifier = { target = FRA modifier = positive_179 }
+add_opinion_modifier = { target = HUN modifier = negative_28 }
+give_military_access = HUN
+add_opinion_modifier = { target = ITA modifier = negative_199 }
+add_opinion_modifier = { target = KEN modifier = negative_10 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_110 }
+add_opinion_modifier = { target = SIA modifier = negative_50 }
+add_opinion_modifier = { target = SPR modifier = negative_60 }
+add_opinion_modifier = { target = X04 modifier = negative_8 }
+add_opinion_modifier = { target = X07 modifier = negative_200 }
+add_opinion_modifier = { target = X10 modifier = negative_13 }
+add_opinion_modifier = { target = X14 modifier = negative_184 }
+add_opinion_modifier = { target = X17 modifier = negative_10 }
+add_opinion_modifier = { target = X20 modifier = negative_90 }
+add_opinion_modifier = { target = X31 modifier = positive_136 }
+add_opinion_modifier = { target = X34 modifier = negative_50 }
+add_opinion_modifier = { target = X37 modifier = negative_80 }
+add_opinion_modifier = { target = X40 modifier = negative_200 }
+add_opinion_modifier = { target = X48 modifier = negative_153 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_south_german
+}
+set_stability = 0.60
+set_war_support = 0.52
+create_country_leader = {
+	name = "Heinrich von Schönburg"
+	desc = "POLITICS_HEINRICH_VON SCHöNBURG_DESC"
+	picture = "GFX_Portrait_hungary_otto_von_hapsburg"
+	expire = "1965.1.1"
+	ideology = prussian_const
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Bernhard von Haynau"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Heinrich von Hartmann"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfons von Böhm-Ermolli"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Horst von Kobratin"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gustav von Tegetthoff"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ferdinand von Gablenz"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DDR }
+	}
+
+	create_operative_leader = {
+		name = "Bernhard Schmitt"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DDR }
+	}
+
+	create_operative_leader = {
+		name = "Lothar von Wittelsbach"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { DDR }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = DDR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = DDR_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = DDR_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

@@ -1,0 +1,179 @@
+﻿capital = 651
+set_research_slots = 2
+
+oob = "TUN_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "TUN_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "TUN_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = X04_research
+}
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1915.10.22"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 69
+	democratic = 26
+	neutrality = 5
+}
+
+add_opinion_modifier = { target = BAN modifier = negative_20 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = positive_15 }
+add_opinion_modifier = { target = ITA modifier = positive_108 }
+add_opinion_modifier = { target = KOR modifier = negative_20 }
+add_opinion_modifier = { target = LBA modifier = positive_112 }
+add_opinion_modifier = { target = MOR modifier = positive_111 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+add_opinion_modifier = { target = X04 modifier = positive_200 }
+add_opinion_modifier = { target = X12 modifier = negative_20 }
+add_opinion_modifier = { target = X15 modifier = negative_20 }
+add_opinion_modifier = { target = X17 modifier = negative_30 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X19 modifier = negative_20 }
+add_opinion_modifier = { target = X23 modifier = negative_20 }
+add_opinion_modifier = { target = X25 modifier = negative_10 }
+add_opinion_modifier = { target = X26 modifier = negative_20 }
+add_opinion_modifier = { target = X28 modifier = negative_20 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+add_opinion_modifier = { target = X35 modifier = negative_20 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X41 modifier = negative_20 }
+add_opinion_modifier = { target = X43 modifier = negative_20 }
+add_opinion_modifier = { target = X44 modifier = negative_20 }
+add_opinion_modifier = { target = X47 modifier = negative_20 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_berber
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Abd al-Karim Belkadi"
+	desc = "POLITICS_ABD AL-KARIM_BELKADI_DESC"
+	picture = "gfx/leaders/OC/Arabia/Portrait_EGY_Sabry_Pasha.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Ahmed al-Shawiyyati"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Muhammad al-Rifi"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "FNU LNU"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ahmed al-Shiluhi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUN }
+	}
+
+	create_operative_leader = {
+		name = "Muhammad Belkadi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUN }
+	}
+
+	create_operative_leader = {
+		name = "Mustafa al-Shawiyyati"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUN }
+	}
+
+	create_operative_leader = {
+		name = "Abd al-Karim al-Shawiyyati"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUN }
+	}
+
+	create_operative_leader = {
+		name = "Ahmed al-Zanatawi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUN }
+	}
+
+	create_operative_leader = {
+		name = "Muhammad al-Shiluhi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUN }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

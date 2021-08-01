@@ -1,0 +1,151 @@
+﻿converted_war_strategies_TZN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 1241
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 730
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DDR"
+		value = 657
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AUS"
+		value = 292
+	}
+}
+
+converted_diplo_strategies_TZN = {
+	enable = {
+		tag = TZN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "MLW"
+		value = 352
+	}
+	ai_strategy = {
+		type = contain
+		id = "KEN"
+		value = 343
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 320
+	}
+	ai_strategy = {
+		type = contain
+		id = "COG"
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = "X05"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X45"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X07"
+		value = 60
+	}
+	ai_strategy = {
+		type = contain
+		id = "SAU"
+		value = 59
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 332
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 243
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DDR"
+		value = 219
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 165
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SAU"
+		value = 115
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X45"
+		value = 110
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X07"
+		value = 37
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POR"
+		value = 34
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 33
+	}
+	ai_strategy = {
+		type = protect
+		id = "MLW"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "X05"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "AUS"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X36"
+		value = 40
+	}
+}

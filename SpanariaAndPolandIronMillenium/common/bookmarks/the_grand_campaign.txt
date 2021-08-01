@@ -1,0 +1,194 @@
+bookmarks = {
+	bookmark = {
+		name = GRAND_CAMPAIGN_NAME
+		desc = GRAND_CAMPAIGN_DESC
+		date = 1920.1.1.12
+		picture = GFX_select_date_1939
+		default_country = "FRA"
+		ITA= {
+			history = "absolutist_GP_CONV_DESC"
+			ideology = absolutist
+			ideas = { great_power vittoria_mutilata }
+		}
+		FRA= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power }
+		}
+		CSA= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power }
+		}
+		X14= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power X14_monarch }
+		}
+		HUN= {
+			history = "absolutist_GP_CONV_DESC"
+			ideology = absolutist
+			ideas = { great_power }
+		}
+		ENG= {
+			history = "absolutist_GP_CONV_DESC"
+			ideology = absolutist
+			ideas = { great_power }
+		}
+		EST= {
+			history = "democratic_GP_CONV_DESC"
+			ideology = democratic
+			ideas = { great_power EST_monarch }
+		}
+		X31= {
+			history = "communism_GP_CONV_DESC"
+			ideology = communism
+			ideas = { great_power }
+		}
+		"---"= {
+			history = "OTHER_GRAND_CAMPAIGN_DESC"
+		}
+		ARM = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		AUS = {
+			minor = yes
+			history = "communism_SP_CONV_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		BAN = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		BOL = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		BRU = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		CAN = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		CAR = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		COL = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		DDR = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		JAP = {
+			minor = yes
+			history = "communism_SP_CONV_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		MOR = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		SCA = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { SCA_monarch }
+		}
+		SPR = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { SPR_monarch }
+		}
+		USA = {
+			minor = yes
+			history = "neutrality_SP_CONV_DESC"
+			ideology = neutrality
+			ideas = { }
+		}
+		X04 = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { X04_monarch }
+		}
+		X08 = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { X08_monarch }
+		}
+		X10 = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { X10_monarch }
+		}
+		X23 = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X34 = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		X36 = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X37 = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X43 = {
+			minor = yes
+			history = "absolutist_SP_CONV_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X49 = {
+			minor = yes
+			history = "democratic_SP_CONV_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		effect = {
+			randomize_weather = 22345 # <-Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

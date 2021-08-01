@@ -1,0 +1,520 @@
+focus_tree = {
+	id = CSA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropCSA
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 27
+		y = 0
+		cost = 10
+		available = {
+			threat > 0.000050
+		}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterCSA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropCSA }
+		x = 0
+		y = 1
+		relative_position_id = WarPropCSA
+		cost = 10
+		available = {
+			threat > 0.000075
+		}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimCSA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterCSA }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterCSA
+		cost = 10
+		available = {
+			threat > 0.000125
+		}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanCSAITA
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanITA
+		prerequisite = { focus = LimCSA }
+		bypass = {
+			has_war_with = ITA
+		}
+		x = -3
+		y = 1
+		relative_position_id = LimCSA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ITA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoCSAITA
+		icon = GFX_goal_generic_trade
+		text = EmbargoITA
+		prerequisite = { focus =  WarPlanCSAITA }
+		bypass = {
+			has_war_with = ITA
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanCSAITA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ITA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			ITA = {
+				add_opinion_modifier = { target = CSA modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARCSAITA
+		icon = GFX_goal_support_democracy
+		text = WARITA
+		prerequisite = { focus =  EmbargoCSAITA }
+		bypass = {
+			has_war_with = ITA
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoCSAITA
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = ITA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = ITA
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = WarPlanCSAENG
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanENG
+		prerequisite = { focus = LimCSA }
+		bypass = {
+			has_war_with = ENG
+		}
+		x = -1
+		y = 1
+		relative_position_id = LimCSA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ENG
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoCSAENG
+		icon = GFX_goal_generic_trade
+		text = EmbargoENG
+		prerequisite = { focus =  WarPlanCSAENG }
+		bypass = {
+			has_war_with = ENG
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanCSAENG
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = ENG
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = { target = CSA modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARCSAENG
+		icon = GFX_goal_support_democracy
+		text = WARENG
+		prerequisite = { focus =  EmbargoCSAENG }
+		bypass = {
+			has_war_with = ENG
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoCSAENG
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = ENG
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = ENG
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = WarPlanCSAHUN
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanHUN
+		prerequisite = { focus = LimCSA }
+		bypass = {
+			has_war_with = HUN
+		}
+		x = 1
+		y = 1
+		relative_position_id = LimCSA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = HUN
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoCSAHUN
+		icon = GFX_goal_generic_trade
+		text = EmbargoHUN
+		prerequisite = { focus =  WarPlanCSAHUN }
+		bypass = {
+			has_war_with = HUN
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanCSAHUN
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = HUN
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			HUN = {
+				add_opinion_modifier = { target = CSA modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARCSAHUN
+		icon = GFX_goal_support_democracy
+		text = WARHUN
+		prerequisite = { focus =  EmbargoCSAHUN }
+		bypass = {
+			has_war_with = HUN
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoCSAHUN
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = HUN
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = HUN
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = WarPlanCSAFRA
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanFRA
+		prerequisite = { focus = LimCSA }
+		bypass = {
+			has_war_with = FRA
+		}
+		x = 3
+		y = 1
+		relative_position_id = LimCSA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = FRA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+				}
+			}
+		}
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoCSAFRA
+		icon = GFX_goal_generic_trade
+		text = EmbargoFRA
+		prerequisite = { focus =  WarPlanCSAFRA }
+		bypass = {
+			has_war_with = FRA
+		}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanCSAFRA
+		cost = 10
+		available = {
+			any_other_country = {
+				original_tag = FRA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			FRA = {
+				add_opinion_modifier = { target = CSA modifier = embargo }
+			}
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARCSAFRA
+		icon = GFX_goal_support_democracy
+		text = WARFRA
+		prerequisite = { focus =  EmbargoCSAFRA }
+		bypass = {
+			has_war_with = FRA
+		}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoCSAFRA
+		cost = 10
+		available = {
+			has_war = no
+			any_other_country = {
+				original_tag = FRA
+				exists = yes
+				NOT = { has_government = democratic } 
+				NOT = { is_in_faction_with = CSA }
+				OR = {
+					has_offensive_war = yes
+					has_added_tension_amount > 30
+					threat > 0.6
+				}
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+}

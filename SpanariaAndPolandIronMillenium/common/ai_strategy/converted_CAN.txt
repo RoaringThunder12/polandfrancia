@@ -1,0 +1,96 @@
+﻿converted_war_strategies_CAN = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 695
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CSA"
+		value = 344
+	}
+}
+
+converted_diplo_strategies_CAN = {
+	enable = {
+		tag = CAN
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CSA"
+		value = 356
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 283
+	}
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 166
+	}
+	ai_strategy = {
+		type = contain
+		id = "CUB"
+		value = 139
+	}
+	ai_strategy = {
+		type = contain
+		id = "COL"
+		value = 43
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CSA"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X25"
+		value = 56
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CUB"
+		value = 51
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 130
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "USA"
+		value = 120
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X42"
+		value = 92
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ARG"
+		value = 76
+	}
+}

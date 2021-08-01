@@ -1,0 +1,33 @@
+
+state={
+	id=606
+	name="STATE_606"
+	resources={
+		chromium=20.000
+		steel=4.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = ZIM
+		victory_points = {
+			10929 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = X50
+		add_core_of = ZIM
+	}
+
+	provinces={
+		1874 2151 2216 4851 7842 10929 
+	}
+	manpower=395576
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

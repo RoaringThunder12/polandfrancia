@@ -1,0 +1,78 @@
+﻿capital = 281
+set_research_slots = 3
+
+oob = "UZB_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "UZB_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "UZB_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_central_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 89
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BAN modifier = negative_20 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = KOR modifier = negative_20 }
+add_opinion_modifier = { target = MOR modifier = negative_5 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+add_opinion_modifier = { target = X12 modifier = negative_20 }
+add_opinion_modifier = { target = X15 modifier = negative_20 }
+add_opinion_modifier = { target = X17 modifier = negative_30 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X19 modifier = negative_20 }
+add_opinion_modifier = { target = X23 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = negative_20 }
+add_opinion_modifier = { target = X28 modifier = negative_20 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+add_opinion_modifier = { target = X35 modifier = negative_20 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X41 modifier = negative_20 }
+add_opinion_modifier = { target = X43 modifier = negative_20 }
+add_opinion_modifier = { target = X44 modifier = negative_20 }
+add_opinion_modifier = { target = X47 modifier = negative_20 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_uzbek
+}
+create_country_leader = {
+	name = "Alimqul Khan"
+	desc = "POLITICS_ALIMQUL_KHAN_DESC"
+	picture = "gfx/leaders/OC/portrait_Vic1_Mozaffar_al-Din_Shah_Qajar.tga"
+	expire = "1965.1.1"
+	ideology = dictatorship_neutral
+	traits = {
+	}
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

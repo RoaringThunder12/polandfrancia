@@ -1,0 +1,162 @@
+﻿capital = 242
+set_research_slots = 2
+
+oob = "HAW_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "HAW_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "HAW_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 100
+}
+
+add_opinion_modifier = { target = BAN modifier = negative_20 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_20 }
+add_opinion_modifier = { target = COL modifier = negative_110 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_120 }
+add_opinion_modifier = { target = ENG modifier = negative_145 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+add_opinion_modifier = { target = KOR modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = negative_20 }
+add_opinion_modifier = { target = MOR modifier = negative_20 }
+add_opinion_modifier = { target = POR modifier = negative_100 }
+add_opinion_modifier = { target = SAU modifier = negative_20 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+add_opinion_modifier = { target = X01 modifier = negative_20 }
+add_opinion_modifier = { target = X02 modifier = negative_20 }
+add_opinion_modifier = { target = X04 modifier = negative_100 }
+add_opinion_modifier = { target = X05 modifier = negative_100 }
+add_opinion_modifier = { target = X12 modifier = negative_20 }
+add_opinion_modifier = { target = X15 modifier = negative_20 }
+add_opinion_modifier = { target = X17 modifier = negative_30 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X19 modifier = negative_20 }
+add_opinion_modifier = { target = X20 modifier = negative_20 }
+add_opinion_modifier = { target = X21 modifier = negative_20 }
+add_opinion_modifier = { target = X23 modifier = negative_20 }
+add_opinion_modifier = { target = X24 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = negative_5 }
+add_opinion_modifier = { target = X28 modifier = negative_20 }
+add_opinion_modifier = { target = X30 modifier = negative_20 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+add_opinion_modifier = { target = X35 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = negative_20 }
+add_opinion_modifier = { target = X38 modifier = negative_100 }
+add_opinion_modifier = { target = X39 modifier = negative_110 }
+add_opinion_modifier = { target = X41 modifier = negative_5 }
+add_opinion_modifier = { target = X42 modifier = negative_20 }
+add_opinion_modifier = { target = X43 modifier = negative_20 }
+add_opinion_modifier = { target = X44 modifier = negative_20 }
+add_opinion_modifier = { target = X45 modifier = negative_20 }
+add_opinion_modifier = { target = X46 modifier = negative_20 }
+add_opinion_modifier = { target = X47 modifier = negative_20 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_hawaiian
+}
+create_country_leader = {
+	name = "James Kahanamoku"
+	desc = "POLITICS_JAMES_KAHANAMOKU_DESC"
+	picture = "gfx/leaders/HAW/Portrait_Hawaii_David_Kawananakoa.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "FNU LNU"
+	traits = { }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "FNU LNU"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Aloha Mahealani"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Aloha Trask"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Aloha Akaka"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+	create_operative_leader = {
+		name = "Aloha Iaukea"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HAW }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

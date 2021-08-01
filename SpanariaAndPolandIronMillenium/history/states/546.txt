@@ -1,0 +1,28 @@
+
+state={
+	id=546
+	name="STATE_546"
+
+	history={
+		owner = X29
+		victory_points = {
+			8106 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X29
+		add_core_of = X32
+	}
+
+	provinces={
+		8106 
+	}
+	manpower=1098640
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

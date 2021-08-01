@@ -1,0 +1,31 @@
+
+state={
+	id=405
+	name="STATE_405"
+	resources={
+		aluminium=2.000
+		rubber=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			12817 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1891 1932 12817 
+	}
+	manpower=2004804
+	buildings_max_level_factor=1.000
+	state_category=town
+}

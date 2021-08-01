@@ -1,0 +1,39 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 321
+		task_force = {
+			name = "2nd Fleet"
+			location = 321
+			ship = { name = "1st Emden Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Kiel Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "3rd Kiel Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Hamburg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Emden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "2nd Emden Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Hamburg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+			ship = { name = "1st Kiel Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X14 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X14"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X14"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

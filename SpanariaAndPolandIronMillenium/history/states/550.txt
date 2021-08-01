@@ -1,0 +1,34 @@
+
+state={
+	id=550
+	name="STATE_550"
+	resources={
+		rubber=55.000
+	}
+
+	history={
+		owner = X57
+		victory_points = {
+			12230 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12230 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+		add_core_of = X57
+	}
+
+	provinces={
+		1366 10156 10158 12230 12286 
+	}
+	manpower=173052
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

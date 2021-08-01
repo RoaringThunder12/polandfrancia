@@ -1,0 +1,125 @@
+﻿capital = 402
+set_research_slots = 2
+
+oob = "GHA_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "GHA_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "GHA_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 89
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BAN modifier = negative_20 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_20 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_20 }
+add_opinion_modifier = { target = KOR modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = negative_20 }
+add_opinion_modifier = { target = MOR modifier = negative_20 }
+add_opinion_modifier = { target = SAU modifier = negative_20 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+add_opinion_modifier = { target = X01 modifier = negative_20 }
+add_opinion_modifier = { target = X02 modifier = negative_20 }
+add_opinion_modifier = { target = X12 modifier = negative_20 }
+add_opinion_modifier = { target = X15 modifier = negative_20 }
+add_opinion_modifier = { target = X17 modifier = negative_30 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X19 modifier = negative_20 }
+add_opinion_modifier = { target = X20 modifier = negative_20 }
+add_opinion_modifier = { target = X21 modifier = negative_20 }
+add_opinion_modifier = { target = X23 modifier = negative_20 }
+add_opinion_modifier = { target = X24 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = negative_20 }
+add_opinion_modifier = { target = X28 modifier = negative_20 }
+add_opinion_modifier = { target = X30 modifier = negative_20 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+add_opinion_modifier = { target = X35 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = negative_20 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X41 modifier = negative_20 }
+add_opinion_modifier = { target = X42 modifier = negative_20 }
+add_opinion_modifier = { target = X43 modifier = negative_20 }
+add_opinion_modifier = { target = X44 modifier = negative_20 }
+add_opinion_modifier = { target = X45 modifier = negative_20 }
+add_opinion_modifier = { target = X46 modifier = negative_20 }
+add_opinion_modifier = { target = X47 modifier = negative_20 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_dummy
+}
+create_country_leader = {
+	name = "FNU LNU"
+	desc = "POLITICS_FNU_LNU_DESC"
+	picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "FNU LNU"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GHA }
+	}
+
+	create_operative_leader = {
+		name = "FNU LNU"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GHA }
+	}
+
+	create_operative_leader = {
+		name = "FNU LNU"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GHA }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

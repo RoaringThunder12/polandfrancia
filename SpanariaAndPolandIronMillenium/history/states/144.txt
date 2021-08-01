@@ -1,0 +1,35 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		chromium=5.000
+		steel=5.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = VIN
+		victory_points = {
+			4075 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1185 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		1157 1185 4075 4119 4529 7093 9948 10075 10103 10129 12048 12075 12319 
+	}
+	manpower=1956836
+	buildings_max_level_factor=1.000
+	state_category=town
+}

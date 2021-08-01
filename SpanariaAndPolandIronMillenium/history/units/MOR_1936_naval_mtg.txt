@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10070
+		task_force = {
+			name = "1st Fleet"
+			location = 10070
+			ship = { name = "Amin" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Anwar" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Alif" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Ayham" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Bahir" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Dhakwan" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Falah" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Amin" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Alif" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Hanbal" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Faraj" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Fawzan" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Ghanim" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+			ship = { name = "Haris" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = MOR version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "MOR"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

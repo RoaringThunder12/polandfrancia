@@ -1,0 +1,106 @@
+﻿converted_war_strategies_GDL = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X39"
+		value = 330
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CSA"
+		value = 168
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CUB"
+		value = 165
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 60
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X25"
+		value = 33
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X09"
+		value = 30
+	}
+}
+
+converted_diplo_strategies_GDL = {
+	enable = {
+		tag = GDL
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X09"
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = "CUB"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X39"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X25"
+		value = 116
+	}
+	ai_strategy = {
+		type = contain
+		id = "COL"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X25"
+		value = 198
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CUB"
+		value = 105
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CSA"
+		value = 56
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 20
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X49"
+		value = 152
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X02"
+		value = 115
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X25"
+		value = 100
+	}
+}

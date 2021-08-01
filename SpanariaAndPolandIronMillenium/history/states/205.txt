@@ -1,0 +1,29 @@
+
+state={
+	id=205
+	name="STATE_205"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			12419 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		12419 
+	}
+	manpower=42692
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

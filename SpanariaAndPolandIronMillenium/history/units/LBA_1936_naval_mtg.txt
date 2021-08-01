@@ -1,0 +1,27 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1149
+		task_force = {
+			name = "1st Fleet"
+			location = 1149
+			ship = { name = "Alif" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LBA version_name = "Early Destroyer" } } }
+			ship = { name = "Amin" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LBA version_name = "Early Destroyer" } } }
+			ship = { name = "Anwar" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LBA version_name = "Early Destroyer" } } }
+			ship = { name = "Ayham" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LBA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "LBA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

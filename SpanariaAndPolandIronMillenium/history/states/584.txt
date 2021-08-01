@@ -1,0 +1,30 @@
+
+state={
+	id=584
+	name="STATE_584"
+
+	history={
+		owner = POR
+		victory_points = {
+			13002 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			13002 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		13002 
+	}
+	manpower=66708
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

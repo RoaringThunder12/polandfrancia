@@ -1,0 +1,26 @@
+
+state={
+	id=658
+	name="STATE_658"
+
+	history={
+		owner = USA
+		victory_points = {
+			4723 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651 
+	}
+	manpower=347268
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

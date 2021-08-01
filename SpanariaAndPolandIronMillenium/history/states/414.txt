@@ -1,0 +1,18 @@
+
+state={
+	id=414
+	name="STATE_414"
+	impassable = yes
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+	}
+
+	provinces={
+		1043 1901 4903 5095 8061 10749 12849 
+	}
+	manpower=272672
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

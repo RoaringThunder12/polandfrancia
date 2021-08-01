@@ -1,0 +1,32 @@
+
+state={
+	id=488
+	name="STATE_488"
+	resources={
+		chromium=2.000
+		steel=2.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			12065 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X56
+	}
+
+	provinces={
+		1073 7015 7518 12008 12065 
+	}
+	manpower=1216096
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

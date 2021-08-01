@@ -1,0 +1,181 @@
+﻿converted_war_strategies_X31 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 4189
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HUN"
+		value = 2262
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EST"
+		value = 1276
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 890
+	}
+}
+
+converted_diplo_strategies_X31 = {
+	enable = {
+		tag = X31
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "EST"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X14"
+		value = 372
+	}
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 293
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 256
+	}
+	ai_strategy = {
+		type = contain
+		id = "ARM"
+		value = 189
+	}
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 163
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 162
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 162
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HUN"
+		value = 395
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 377
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EST"
+		value = 176
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 60
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X48"
+		value = 53
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CRO"
+		value = 50
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X07"
+		value = 49
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X34"
+		value = 47
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X24"
+		value = 46
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X04"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = 129
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 122
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CRO"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "AUS"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "X10"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "DDR"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "X48"
+		value = 16
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X34"
+		value = 147
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X14"
+		value = 120
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HUN"
+		value = 114
+	}
+}

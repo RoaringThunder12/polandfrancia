@@ -1,0 +1,68 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1132
+		task_force = {
+			name = "1st Fleet"
+			location = 1132
+			ship = { name = "CSS Alabama" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Tallahassee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Georgia" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Shenandoah" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Nashville" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Rappahanock" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Sumter" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Florida" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Alexandra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Tacony" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "CSS Chickamauga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd San Antonio Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd New Orleans Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Tallahassee Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Biloxi Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Charleston Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Wilmington Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Mobile Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd San Antonio Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd New Orleans Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Tallahassee Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Biloxi Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Charleston Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Wilmington Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "4th San Antonio Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "4th New Orleans Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Mobile Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "5th Biloxi Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "5th New Orleans Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "6th Biloxi Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "5th San Antonio Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "6th New Orleans Commerce Raider" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "7th Biloxi Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "7th New Orleans Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "8th Biloxi Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Tallahassee Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Norfolk Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Long Island Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Charleston Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Norfolk Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Baltimore Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "1st Boston Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Baltimore Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Wilmington Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+			ship = { name = "4th Charleston Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CSA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CSA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=461
+	name="STATE_461"
+
+	history={
+		owner = X23
+		victory_points = {
+			8042 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4973 8042 10911 
+	}
+	manpower=117196
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

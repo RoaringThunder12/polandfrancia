@@ -1,0 +1,30 @@
+
+state={
+	id=338
+	name="STATE_338"
+
+	history={
+		owner = GDL
+		victory_points = {
+			9377 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			9377 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = GDL
+	}
+
+	provinces={
+		9377 
+	}
+	manpower=215084
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

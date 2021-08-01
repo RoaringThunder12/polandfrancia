@@ -1,0 +1,32 @@
+
+state={
+	id=447
+	name="STATE_447"
+	resources={
+		aluminium=24.000
+		steel=8.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			6521 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = X14
+		add_core_of = X31
+	}
+
+	provinces={
+		375 444 478 537 3207 3312 3367 3473 3499 3572 6236 6441 6521 9387 9428 9496 11219 11415 11444 11478 11505 
+	}
+	manpower=2985892
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=422
+	name="STATE_422"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			12446 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12446 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1322 1820 12446 
+	}
+	manpower=242408
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

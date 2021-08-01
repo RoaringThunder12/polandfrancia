@@ -1,0 +1,260 @@
+focus_tree = {
+	id = X31_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = X31
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = Home_of_RevolutionX31
+		icon = GFX_goal_support_communism
+		text = Home_of_Revolution
+		x = 24
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_ideas = communist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Influence_SCA_X31
+		icon = GFX_goal_generic_propaganda
+		text = Influence_SCA
+		prerequisite = { focus = Home_of_RevolutionX31 }
+		x = 24
+		y = 1
+		cost = 10
+		completion_reward = {
+			SCA = {
+				if = {
+					limit = {
+						X31 = {
+							has_government = communism
+						}
+					}
+					add_ideas = communist_influence
+				}
+				if = {
+					limit = {
+						X31 = {
+							has_government = democratic
+						}
+					}
+					add_ideas = democratic_influence
+				}
+				if = {
+					limit = {
+						X31 = {
+							has_government = absolutist
+						}
+					}
+					add_ideas = absolutist_influence
+				}
+				country_event = { id = generic.1 }
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Coup_SCA_X31
+		icon = GFX_goal_generic_demand_territory
+		text = Coup_SCA
+		prerequisite = { focus = Influence_SCA_X31 }
+		x = 0
+		y = 1
+		relative_position_id = Influence_SCA_X31
+		cost = 10
+		available = {
+			SCA = { communism > 0.5 }
+		}
+		completion_reward = {
+			SCA = {
+				start_civil_war = {
+					ideology = communism
+					size = 0.5
+				}
+			}
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = StrengthComX31
+		icon = GFX_goal_support_communism
+		text = StrengthCom
+		x = 26
+		y = 0
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = Inter_Com_PresX31
+		icon = GFX_goal_generic_dangerous_deal
+		text = Inter_Com_Pres
+		prerequisite = { focus = StrengthComX31 }
+		x = 0
+		y = 1
+		relative_position_id = StrengthComX31
+		cost = 10
+		available = {
+		date > 1937.1.1
+	}
+		completion_reward = {
+			add_named_threat = { threat = 2 name = Inter_Com_Pres }
+			add_political_power = 150
+		}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = WarSCAX31
+		icon = GFX_goal_generic_major_war
+		text = WarSCA
+		prerequisite = { focus = Inter_Com_PresX31 }
+		bypass = {
+					has_war_with = SCA
+				}
+		x = 26
+		y = 2
+		cost = 10
+		available = {
+			date > 1938.11.9
+		}
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "War with Scandinavia" }
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SCA
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = SCA ratio < 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = Com_SummitX31
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Communist_Summit
+		x = 29
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "Call for the Communist Summit" }
+			add_political_power = 150
+		}
+		ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 10
+			date > 1938.1.1
+		}
+	}
+	}
+
+	focus = {
+		id = Alliance_AUSX31
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_AUS
+		prerequisite = { focus = Com_SummitX31 }
+		bypass = {
+			OR = {
+				X31 = { is_in_faction_with = AUS}
+				has_war_with = AUS
+				NOT = { country_exists = AUS }
+			}
+		}
+		x = -1
+		y = 1
+		relative_position_id = Com_SummitX31
+		cost = 10
+		available = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+			}
+	}
+		completion_reward = {
+			AUS = {
+				country_event = { hours = 6 id = NFEvents.9 }
+				add_opinion_modifier = { target = X31 modifier = positive_50 }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = Alliance_FRAX31
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_FRA
+		prerequisite = { focus = Com_SummitX31 }
+		bypass = {
+			OR = {
+				X31 = { is_in_faction_with = FRA}
+				has_war_with = FRA
+				NOT = { country_exists = FRA }
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = Com_SummitX31
+		cost = 10
+		available = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+			}
+	}
+		completion_reward = {
+			FRA = {
+				country_event = { hours = 6 id = NFEvents.10 }
+				add_opinion_modifier = { target = X31 modifier = positive_50 }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=389
+	name="STATE_389"
+
+	history={
+		owner = CRO
+		victory_points = {
+			11581 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_core_of = CRO
+		add_claim_by = CRO
+	}
+
+	provinces={
+		624 3592 3596 3601 9595 9611 11581 11594 
+	}
+	manpower=1507452
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

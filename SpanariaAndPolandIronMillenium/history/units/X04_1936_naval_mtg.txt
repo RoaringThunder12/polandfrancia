@@ -1,0 +1,64 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 9809
+		task_force = {
+			name = "4th Fleet"
+			location = 5412
+			ship = { name = "3rd Ulcinj Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Smyrne Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 9809
+		task_force = {
+			name = "12th Fleet"
+			location = 5937
+			ship = { name = "Zakynthos" definition = destroyer start_experience_factor = 0.11487 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Arta Commerce Raider" definition = destroyer start_experience_factor = 0.11926 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Polygyros Commerce Raider" definition = destroyer start_experience_factor = 0.11841 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Ulcinj Commerce Raider" definition = destroyer start_experience_factor = 0.11792 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Leon" definition = destroyer start_experience_factor = 0.06218 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Panthir" definition = destroyer start_experience_factor = 0.06068 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Makedonía" definition = destroyer start_experience_factor = 0.06266 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Ifestos" definition = destroyer start_experience_factor = 0.06107 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Aetos" definition = destroyer start_experience_factor = 0.06068 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Ierax" definition = destroyer start_experience_factor = 0.05788 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Limnos" definition = destroyer start_experience_factor = 0.11975 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Varna Commerce Raider" definition = destroyer start_experience_factor = 0.12375 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Burgas Commerce Raider" definition = destroyer start_experience_factor = 0.12647 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Burgas Commerce Raider" definition = destroyer start_experience_factor = 0.13363 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Nikomedia Commerce Raider" definition = destroyer start_experience_factor = 0.13889 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Naxos" definition = destroyer start_experience_factor = 0.07677 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "Évia" definition = destroyer start_experience_factor = 0.12576 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Burgas Commerce Raider" definition = destroyer start_experience_factor = 0.14701 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Arta Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Nikomedia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Ulcinj Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Varna Commerce Raider" definition = destroyer start_experience_factor = 0.19065 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9809
+		task_force = {
+			name = "3rd Fleet"
+			location = 5937
+			ship = { name = "3rd Arta Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X04 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X04"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

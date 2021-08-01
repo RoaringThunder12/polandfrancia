@@ -1,0 +1,30 @@
+
+state={
+	id=322
+	name="STATE_322"
+
+	history={
+		owner = X54
+		victory_points = {
+			7542 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1546 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X54
+	}
+
+	provinces={
+		1546 4468 4509 4524 4552 7269 7487 7512 7529 7542 7570 7585 8235 8250 10369 10396 10436 10990 12315 12371 12386 
+	}
+	manpower=532344
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

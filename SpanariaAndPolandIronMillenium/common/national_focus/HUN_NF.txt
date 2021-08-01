@@ -1,0 +1,906 @@
+focus_tree = {
+	id = HUN_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = EmpireGloryHUN
+		icon = GFX_goal_anschluss
+		text = EmpireGlory
+		x = 29
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = StrengthenColoniesHUN
+		icon = GFX_goal_generic_position_armies
+		text = StrengthenColonies
+		prerequisite = { focus = EmpireGloryHUN }
+		mutually_exclusive = { focus = StrengthenHomeHUN }
+		x = -1
+		y = 1
+		relative_position_id = EmpireGloryHUN
+		cost = 10
+		completion_reward = {
+		navy_experience = 25
+	}
+		ai_will_do = {
+		factor = 0
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = StrengthenHomeHUN
+		icon = GFX_goal_generic_national_unity
+		text = StrengthenHome
+		prerequisite = { focus = EmpireGloryHUN }
+		mutually_exclusive = { focus = StrengthenColoniesHUN }
+		x = 1
+		y = 1
+		relative_position_id = EmpireGloryHUN
+		cost = 10
+		completion_reward = {
+		army_experience = 25
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = ColonialIndHUN
+		icon = GFX_goal_generic_construct_civ_factory
+		text = ColonialInd
+		prerequisite = { focus = StrengthenColoniesHUN }
+		x = -2
+		y = 1
+		relative_position_id = StrengthenColoniesHUN
+		cost = 10
+		completion_reward = {
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = no
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = no
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = no
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = no
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = no
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = no
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = ColonialHwyHUN
+		icon = GFX_goal_generic_construct_infrastructure
+		text = ColonialHwy
+		prerequisite = { focus = ColonialIndHUN }
+		mutually_exclusive = { focus = ResourceFacHUN }
+		x = -2
+		y = 1
+		relative_position_id = ColonialIndHUN
+		cost = 10
+		completion_reward = {
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = no
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = no
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = no
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = no
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = no
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = no
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = ResourceFacHUN
+		icon = GFX_goal_generic_oil_refinery
+		text = ResourceFac
+		prerequisite = { focus = ColonialIndHUN }
+		mutually_exclusive = { focus = ColonialHwyHUN }
+		x = 0
+		y = 1
+		relative_position_id = ColonialIndHUN
+		cost = 10
+		completion_reward = {
+		add_ideas = improved_resource_industry
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = ColonialArmyHUN
+		icon = GFX_goal_generic_allies_build_infantry
+		text = ColonialArmy
+		prerequisite = { focus = StrengthenColoniesHUN }
+		x = 0
+		y = 1
+		relative_position_id = StrengthenColoniesHUN
+		cost = 10
+		completion_reward = {
+		add_ideas = militarism_focus_absolutist
+}
+
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = ProtectorateHUNX07
+		icon = GFX_goal_generic_major_war
+		text = ProtectorateX07
+		prerequisite = { focus = ColonialArmyHUN }
+		bypass = {
+			OR = {
+				HUN = {
+					is_in_faction_with = X07
+					has_war_with = X07
+				}
+				NOT = { country_exists = X07 }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = ColonialArmyHUN
+		cost = 10
+		available = {
+			X07 = { is_in_faction = no }
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = X07
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = X07 ratio < 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = ProtectorateHUNMAL
+		icon = GFX_goal_generic_major_war
+		text = ProtectorateMAL
+		prerequisite = { focus = ProtectorateHUNX07 }
+		bypass = {
+			OR = {
+				HUN = {
+					is_in_faction_with = MAL
+					has_war_with = MAL
+				}
+				NOT = { country_exists = MAL }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = ProtectorateHUNX07
+		cost = 10
+		available = {
+			MAL = { is_in_faction = no }
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = MAL
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = MAL ratio < 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = TradeEmpireHUN
+		icon = GFX_goal_anschluss
+		text = TradeEmpire
+		prerequisite = { focus = ColonialHwyHUN focus = ResourceFacHUN }
+		x = -1
+		y = 2
+		relative_position_id = ColonialIndHUN
+		cost = 10
+		completion_reward = {
+		add_ideas = established_traders
+		set_country_flag = established_traders
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					include_locked = yes
+				}
+					is_coastal = yes
+				OR = {
+					is_in_home_area = no
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = no
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = IndHomeHUN
+		icon = GFX_goal_generic_production
+		text = IndHome
+		prerequisite = { focus = StrengthenHomeHUN }
+		x = 1
+		y = 1
+		relative_position_id = StrengthenHomeHUN
+		cost = 10
+		completion_reward = {
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 1
+			category = industry
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = NationalHwyHUN
+		icon = GFX_goal_generic_construct_infrastructure
+		text = NationalHwy
+		prerequisite = { focus = IndHomeHUN }
+		x = -1
+		y = 1
+		relative_position_id = IndHomeHUN
+		cost = 10
+		completion_reward = {
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = NatCollegeHUN
+		icon = GFX_goal_anschluss
+		text = NatCollege
+		prerequisite = { focus = IndHomeHUN }
+		x = 1
+		y = 1
+		relative_position_id = IndHomeHUN
+		cost = 10
+		completion_reward = {
+		add_ideas = national_college
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = MilitaryBuildupHUN
+		icon = GFX_goal_generic_construct_mil_factory
+		text = MilitaryBuildup
+		prerequisite = { focus = NatCollegeHUN }
+		prerequisite = { focus = NationalHwyHUN }
+		x = 2
+		y = 2
+		relative_position_id = IndHomeHUN
+		cost = 10
+		completion_reward = {
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = PrepTheBorderHUN
+		icon = GFX_goal_generic_defence
+		text = PrepTheBorder
+		prerequisite = { focus = StrengthenHomeHUN }
+		x = 4
+		y = 1
+		relative_position_id = StrengthenHomeHUN
+		cost = 10
+		completion_reward = {
+		add_ideas = border_buildup
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = NatSpiritHUN
+		icon = GFX_goal_generic_political_pressure
+		text = NatSpirit
+		prerequisite = { focus = PrepTheBorderHUN }
+		x = 0
+		y = 1
+		relative_position_id = PrepTheBorderHUN
+		cost = 10
+		completion_reward = {
+		add_ideas = paramilitarism_focus
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+		}
+	}
+	}
+
+	focus = {
+		id = AnnexHUNX04
+		icon = GFX_goal_generic_major_war
+		text = AnnexX04
+		prerequisite = { focus = PrepTheBorderHUN }
+		bypass = {
+			OR = {
+				HUN= {
+					is_in_faction_with = X04
+					has_war_with = X04
+				}
+				NOT = { country_exists = X04 }
+			}
+		}
+		x = 2
+		y = 1
+		relative_position_id = PrepTheBorderHUN
+		cost = 10
+		available = {
+			X04 = { is_in_faction = no }
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = X04
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = X04 ratio < 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = AnnexHUNX48
+		icon = GFX_goal_generic_major_war
+		text = AnnexX48
+		prerequisite = { focus = NatSpiritHUN }
+		bypass = {
+			OR = {
+				HUN = {
+					is_in_faction_with = X48
+					has_war_with = X48
+				}
+				NOT = { country_exists = X48 }
+			}
+		}
+		x = 1
+		y = 1
+		relative_position_id = NatSpiritHUN
+		cost = 10
+		available = {
+			"X48" = { is_in_faction = no }
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = X48
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = X48 ratio < 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = War_withX14HUN
+		icon = GFX_goal_generic_major_war
+		text = War_withX14
+		bypass = {
+ 		has_war_with = X14
+ 	}
+		x = 31
+		y = 5
+		cost = 10
+		available = {
+			has_war = no
+			date > 1939.1.1
+		}
+		completion_reward = {
+			add_named_threat = { threat = 5 name = "War with Lotharingia" }
+			declare_war_on = {
+				type = annex_everything
+				target = X14
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = X14 ratio < 0.8 }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_war_with = X31
+					has_war_with = ITA
+					has_war_with = EST
+					has_war_with = ENG
+					has_war_with = CSA
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = War_withITAHUN
+		icon = GFX_goal_generic_major_war
+		text = War_withITA
+		bypass = {
+ 		has_war_with = ITA
+ 	}
+		x = 33
+		y = 5
+		cost = 10
+		available = {
+			has_war = no
+			date > 1939.1.1
+		}
+		completion_reward = {
+			add_named_threat = { threat = 5 name = "War with Italy" }
+			declare_war_on = {
+				type = annex_everything
+				target = ITA
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				strength_ratio = { tag = ITA ratio < 0.8 }
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_war_with = X31
+					has_war_with = X14
+					has_war_with = EST
+					has_war_with = ENG
+					has_war_with = CSA
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=644
+	name="STATE_644"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			12154 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12154 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1389 4393 7614 10423 12154 12240 12400 
+	}
+	manpower=296424
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

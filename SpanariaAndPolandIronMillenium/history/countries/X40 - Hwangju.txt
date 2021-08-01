@@ -1,0 +1,242 @@
+﻿capital = 676
+set_research_slots = 2
+
+oob = "X40_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X40_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X40_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 34
+	democratic = 52
+	neutrality = 14
+}
+
+add_opinion_modifier = { target = CSA modifier = negative_150 }
+add_opinion_modifier = { target = DDR modifier = negative_200 }
+add_opinion_modifier = { target = ENG modifier = negative_50 }
+add_opinion_modifier = { target = FRA modifier = negative_50 }
+add_opinion_modifier = { target = HUN modifier = negative_50 }
+add_opinion_modifier = { target = ITA modifier = negative_50 }
+add_opinion_modifier = { target = X23 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = positive_163 }
+add_opinion_modifier = { target = X42 modifier = negative_20 }
+add_opinion_modifier = { target = X43 modifier = negative_20 }
+add_opinion_modifier = { target = X44 modifier = negative_20 }
+add_opinion_modifier = { target = X45 modifier = negative_20 }
+add_opinion_modifier = { target = X46 modifier = negative_20 }
+add_opinion_modifier = { target = X47 modifier = negative_20 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_korean
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Hwangbo Gyu"
+	desc = "POLITICS_HWANGBO_GYU_DESC"
+	picture = "gfx/leaders/OC/portrait_Vic1_Korean_leader.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Tam Baek"
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Noh Yoon"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kwak Woo"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ae-jung Baek"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Do-hee Jeong"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Bora Min"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Eun-ah Woo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Chae-young Pong-ju"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Bora Joo"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Areum Ko"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Eun-ah Yong-rim"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Da-hee Hwan"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Sin Cha"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Kun Baek"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Hyeong Shin"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Kwog Pong-ju"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+	create_operative_leader = {
+		name = "Guk Sung Min"
+		GFX = "gfx/leaders/JAP/portrait_jap_takeo_yoshikawa.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X40 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

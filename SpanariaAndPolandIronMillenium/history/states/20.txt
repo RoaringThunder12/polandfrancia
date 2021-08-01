@@ -1,0 +1,30 @@
+
+state={
+	id=20
+	name="STATE_20"
+	resources={
+		chromium=10.000
+	}
+
+	history={
+		owner = ARM
+		victory_points = {
+			1599 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ARM
+	}
+
+	provinces={
+		1455 1530 1599 3667 4534 4605 6436 6671 9632 9702 11609 12309 
+	}
+	manpower=369972
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

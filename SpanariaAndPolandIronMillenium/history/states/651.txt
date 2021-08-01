@@ -1,0 +1,34 @@
+
+state={
+	id=651
+	name="STATE_651"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = TUN
+		victory_points = {
+			11969 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			7005 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = MOR
+		add_core_of = TUN
+	}
+
+	provinces={
+		1037 1046 1105 3987 4061 4129 4163 4992 7005 7077 7162 7180 9983 9994 10026 10082 10091 11921 11935 11957 11969 12000 
+	}
+	manpower=1507107
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

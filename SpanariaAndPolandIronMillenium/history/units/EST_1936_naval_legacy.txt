@@ -1,0 +1,53 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4073
+		task_force = {
+			name = "2nd Fleet"
+			location = 8282
+			ship = { name = "Don" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EST } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 3151
+		task_force = {
+			name = "6th Fleet"
+			location = 3151
+			ship = { name = "Ravan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EST } } }
+			ship = { name = "Svir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EST } } }
+			ship = { name = "Seim" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EST } } }
+			ship = { name = "Sestra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EST } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 772
+		task_force = {
+			name = "7th Fleet"
+			location = 772
+			ship = { name = "Yeya" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EST } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "EST"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "EST"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

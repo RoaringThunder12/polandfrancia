@@ -1,0 +1,26 @@
+units = {
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 12512
+		task_force = {
+			name = "5th Fleet"
+			location = 12512
+			ship = { name = "4th Bruges Commerce Raider" definition = destroyer start_experience_factor = 0.1077 equipment = { ship_hull_light_1 = { amount = 1 owner = X10 version_name = "Early Destroyer" } } }
+			ship = { name = "7th Middelburg Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X10 version_name = "Early Destroyer" } } }
+			ship = { name = "Atjeh" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X10 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X10"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

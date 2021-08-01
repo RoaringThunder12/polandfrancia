@@ -1,0 +1,86 @@
+﻿converted_war_strategies_GAM = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 1241
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 730
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DDR"
+		value = 657
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AUS"
+		value = 292
+	}
+}
+
+converted_diplo_strategies_GAM = {
+	enable = {
+		tag = GAM
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 243
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 97
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 186
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 180
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HUN"
+		value = 158
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X02"
+		value = 77
+	}
+}

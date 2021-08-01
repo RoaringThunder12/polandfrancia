@@ -1,0 +1,32 @@
+
+state={
+	id=646
+	name="STATE_646"
+
+	history={
+		owner = X36
+		victory_points = {
+			1351 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1351 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = PHI
+		add_core_of = X19
+		add_core_of = X36
+	}
+
+	provinces={
+		1351 
+	}
+	manpower=7379
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

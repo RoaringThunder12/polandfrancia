@@ -1,0 +1,32 @@
+
+state={
+	id=702
+	name="STATE_702"
+	resources={
+		chromium=4.000
+		oil=0.000
+		steel=0.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			5033 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2098 4407 5018 5033 5080 5102 7926 8041 8059 10741 10856 10918 
+	}
+	manpower=1305784
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

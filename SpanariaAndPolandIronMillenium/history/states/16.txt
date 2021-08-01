@@ -1,0 +1,51 @@
+
+state={
+	id=16
+	name="STATE_16"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			9860 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X04
+		add_claim_by = ARM
+		ENG = {
+			set_province_controller = 864
+			set_province_controller = 1463
+			set_province_controller = 4583
+			set_province_controller = 7470
+			set_province_controller = 7530
+			set_province_controller = 12318
+			set_province_controller = 12376
+		}
+		X04 = {
+			set_province_controller = 4512
+			set_province_controller = 7620
+			set_province_controller = 9912
+			set_province_controller = 10497
+			set_province_controller = 11739
+			set_province_controller = 11759
+			set_province_controller = 11871
+			set_province_controller = 12387
+			set_province_controller = 12416
+		}
+	}
+
+	provinces={
+		864 876 1463 3890 4512 4583 6935 6965 7470 7530 7620 9761 9823 9858 9860 9912 10399 10497 11739 11759 11871 11880 12318 12376 12387 12416 12476 
+	}
+	manpower=1701724
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

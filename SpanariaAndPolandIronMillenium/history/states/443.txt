@@ -1,0 +1,36 @@
+
+state={
+	id=443
+	name="STATE_443"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			6389 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			6389 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = X14
+		add_core_of = X31
+		add_claim_by = SCA
+	}
+
+	provinces={
+		317 332 3231 6257 6389 9320 11251 11366 
+	}
+	manpower=1215840
+	buildings_max_level_factor=1.000
+	state_category=town
+}

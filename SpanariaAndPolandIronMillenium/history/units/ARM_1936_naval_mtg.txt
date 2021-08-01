@@ -1,0 +1,28 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3653
+		task_force = {
+			name = "1st Fleet"
+			location = 3653
+			ship = { name = "10th Trabzon Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARM version_name = "Early Destroyer" } } }
+			ship = { name = "5th Batum Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARM version_name = "Early Destroyer" } } }
+			ship = { name = "9th Trabzon Commerce Raider" definition = destroyer start_experience_factor = 0.28944 equipment = { ship_hull_light_1 = { amount = 1 owner = ARM version_name = "Early Destroyer" } } }
+			ship = { name = "4th Batum Commerce Raider" definition = destroyer start_experience_factor = 0.29641 equipment = { ship_hull_light_1 = { amount = 1 owner = ARM version_name = "Early Destroyer" } } }
+			ship = { name = "8th Trabzon Commerce Raider" definition = destroyer start_experience_factor = 0.22727 equipment = { ship_hull_light_1 = { amount = 1 owner = ARM version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "ARM"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

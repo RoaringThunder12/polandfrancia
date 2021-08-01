@@ -1,0 +1,33 @@
+
+state={
+	id=699
+	name="STATE_699"
+	resources={
+		rubber=0.000
+		steel=3.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = X60
+		victory_points = {
+			1492 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X60
+		add_claim_by = X13
+	}
+
+	provinces={
+		1170 1333 1492 1566 1650 2061 4019 4059 4202 4210 7034 7400 7469 7562 10283 10344 10386 12284 12363 12404 12492 
+	}
+	manpower=2132728
+	buildings_max_level_factor=1.000
+	state_category=town
+}

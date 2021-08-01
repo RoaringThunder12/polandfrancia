@@ -1,0 +1,27 @@
+
+state={
+	id=680
+	name="STATE_680"
+
+	history={
+		owner = X42
+		victory_points = {
+			4580 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X42
+	}
+
+	provinces={
+		4580 7602 10385 10768 
+	}
+	manpower=357704
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

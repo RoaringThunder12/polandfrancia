@@ -1,0 +1,161 @@
+﻿converted_war_strategies_X48 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 1711
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X04"
+		value = 365
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AUS"
+		value = 283
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HUN"
+		value = 267
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CRO"
+		value = 219
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 78
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CSA"
+		value = 64
+	}
+}
+
+converted_diplo_strategies_X48 = {
+	enable = {
+		tag = X48
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 381
+	}
+	ai_strategy = {
+		type = contain
+		id = "CRO"
+		value = 191
+	}
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 173
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 129
+	}
+	ai_strategy = {
+		type = contain
+		id = "X04"
+		value = 112
+	}
+	ai_strategy = {
+		type = contain
+		id = "X14"
+		value = 106
+	}
+	ai_strategy = {
+		type = contain
+		id = "DDR"
+		value = 85
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 218
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HUN"
+		value = 154
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CRO"
+		value = 109
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X04"
+		value = 108
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 44
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X31"
+		value = 44
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DDR"
+		value = 44
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X34"
+		value = 44
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 23
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X14"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X31"
+		value = 189
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X04"
+		value = 138
+	}
+	ai_strategy = {
+		type = alliance
+		id = "EST"
+		value = 100
+	}
+}

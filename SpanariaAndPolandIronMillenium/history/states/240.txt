@@ -1,0 +1,33 @@
+
+state={
+	id=240
+	name="STATE_240"
+	resources={
+		chromium=59.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			1237 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			7390 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1237 4247 7390 12120 
+	}
+	manpower=158600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

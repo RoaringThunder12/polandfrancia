@@ -1,0 +1,36 @@
+
+state={
+	id=433
+	name="STATE_433"
+	resources={
+		rubber=170.000
+		steel=7.000
+		tungsten=62.000
+	}
+
+	history={
+		owner = X11
+		victory_points = {
+			7329 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			7329 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAL
+		add_core_of = X11
+	}
+
+	provinces={
+		1348 4355 7329 10227 12199 
+	}
+	manpower=101564
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

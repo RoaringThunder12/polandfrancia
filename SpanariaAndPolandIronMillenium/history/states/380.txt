@@ -1,0 +1,32 @@
+
+state={
+	id=380
+	name="STATE_380"
+
+	history={
+		owner = ITA
+		victory_points = {
+			9904 50 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 1
+			9904 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = ITA
+		add_core_of = X48
+	}
+
+	provinces={
+		925 967 3885 6862 6926 9794 9904 11751 11790 11846 11861 
+	}
+	manpower=2436748
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,112 @@
+﻿capital = 485
+set_research_slots = 2
+
+oob = "MAL_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "MAL_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "MAL_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_southeast_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 51
+	democratic = 43
+	neutrality = 6
+}
+
+add_opinion_modifier = { target = ARM modifier = negative_20 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_55 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = ITA modifier = negative_20 }
+add_opinion_modifier = { target = POR modifier = negative_20 }
+add_opinion_modifier = { target = SCA modifier = negative_20 }
+add_opinion_modifier = { target = SIA modifier = positive_96 }
+add_opinion_modifier = { target = SPR modifier = negative_20 }
+add_opinion_modifier = { target = VIN modifier = positive_31 }
+add_opinion_modifier = { target = X01 modifier = positive_111 }
+add_opinion_modifier = { target = X02 modifier = negative_10 }
+add_opinion_modifier = { target = X14 modifier = negative_20 }
+add_opinion_modifier = { target = X15 modifier = negative_95 }
+add_opinion_modifier = { target = X21 modifier = negative_141 }
+add_opinion_modifier = { target = X23 modifier = negative_8 }
+add_opinion_modifier = { target = X30 modifier = negative_111 }
+add_opinion_modifier = { target = X34 modifier = negative_30 }
+add_opinion_modifier = { target = X37 modifier = negative_100 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_malay
+}
+set_stability = 0.60
+set_war_support = 0.81
+create_country_leader = {
+	name = "Isandar al-Khairat"
+	desc = "POLITICS_ISANDAR_AL-KHAIRAT_DESC"
+	picture = "gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Riayat al-Marhum"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Idris al-Marhum"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "FNU LNU"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 4
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

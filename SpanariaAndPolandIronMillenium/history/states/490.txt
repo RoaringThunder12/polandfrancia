@@ -1,0 +1,31 @@
+
+state={
+	id=490
+	name="STATE_490"
+	resources={
+		aluminium=0.000
+		steel=2.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			11916 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		4066 4079 7085 7094 7126 9995 10040 10079 10098 11916 11973 12036 
+	}
+	manpower=17091592
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

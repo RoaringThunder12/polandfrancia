@@ -1,0 +1,33 @@
+
+state={
+	id=730
+	name="STATE_730"
+	resources={
+		aluminium=18.000
+		chromium=13.000
+		steel=11.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = X49
+		victory_points = {
+			12479 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X49
+	}
+
+	provinces={
+		2167 2185 2190 2218 4570 5223 7476 7589 8148 8210 8226 8233 10931 10945 12334 12479 12903 12909 12923 12938 12977 
+	}
+	manpower=1969524
+	buildings_max_level_factor=1.000
+	state_category=town
+}

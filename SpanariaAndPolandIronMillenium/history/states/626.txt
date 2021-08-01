@@ -1,0 +1,29 @@
+
+state={
+	id=626
+	name="STATE_626"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X35
+		victory_points = {
+			1986 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1986 2039 
+	}
+	manpower=235556
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=539
+	name="STATE_539"
+	resources={
+		steel=0.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = NZL
+		victory_points = {
+			2211 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2211 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = NZL
+	}
+
+	provinces={
+		2211 4819 8232 8241 10650 12632 12980 12988 
+	}
+	manpower=34816
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

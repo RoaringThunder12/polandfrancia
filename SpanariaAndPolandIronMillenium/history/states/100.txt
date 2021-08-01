@@ -1,0 +1,32 @@
+
+state={
+	id=100
+	name="STATE_100"
+	resources={
+		oil=26.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			8113 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8113 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4892 4942 5000 5056 8113 
+	}
+	manpower=1076992
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

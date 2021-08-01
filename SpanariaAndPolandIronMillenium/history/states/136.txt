@@ -1,0 +1,34 @@
+
+state={
+	id=136
+	name="STATE_136"
+	resources={
+		aluminium=18.000
+	}
+
+	history={
+		owner = CUB
+		victory_points = {
+			12304 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12477 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = CUB
+		add_claim_by = X39
+	}
+
+	provinces={
+		10440 12304 12477 
+	}
+	manpower=3289408
+	buildings_max_level_factor=1.000
+	state_category=city
+}

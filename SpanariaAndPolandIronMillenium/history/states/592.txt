@@ -1,0 +1,32 @@
+
+state={
+	id=592
+	name="STATE_592"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			8219 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8219 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		8219 
+	}
+	manpower=213524
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

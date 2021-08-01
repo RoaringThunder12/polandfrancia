@@ -1,0 +1,32 @@
+
+state={
+	id=363
+	name="STATE_363"
+	resources={
+		aluminium=11.000
+		chromium=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			3696 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 8
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		646 662 696 713 746 3649 3696 6682 6697 9606 9640 9687 11592 11608 
+	}
+	manpower=4038220
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=296
+	name="STATE_296"
+	resources={
+		chromium=5.000
+	}
+
+	history={
+		owner = EST
+		victory_points = {
+			3656 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			772 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		654 672 772 3656 3658 6669 6674 9626 11599 11617 11647 
+	}
+	manpower=342948
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

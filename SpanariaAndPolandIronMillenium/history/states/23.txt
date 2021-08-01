@@ -1,0 +1,35 @@
+
+state={
+	id=23
+	name="STATE_23"
+	resources={
+		aluminium=8.000
+		steel=2.000
+	}
+
+	history={
+		owner = ARM
+		victory_points = {
+			1896 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ARM
+		ENG = {
+			set_province_controller = 1636
+			set_province_controller = 4755
+		}
+	}
+
+	provinces={
+		1636 1822 1896 2071 4553 4755 4825 4901 7604 10454 10523 12793 12861 
+	}
+	manpower=2461432
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

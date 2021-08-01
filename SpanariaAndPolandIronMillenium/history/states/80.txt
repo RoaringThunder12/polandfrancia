@@ -1,0 +1,19 @@
+
+state={
+	id=80
+	name="STATE_80"
+	impassable = yes
+
+	history={
+		owner = X04
+		add_core_of = X04
+		add_claim_by = MOR
+	}
+
+	provinces={
+		5035 8077 
+	}
+	manpower=158284
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

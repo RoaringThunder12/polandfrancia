@@ -1,0 +1,56 @@
+﻿converted_war_strategies_TOG = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 388
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LBA"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_TOG = {
+	enable = {
+		tag = TOG
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 392
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 10
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NZL"
+		value = 111
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CRO"
+		value = 81
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X48"
+		value = 67
+	}
+}

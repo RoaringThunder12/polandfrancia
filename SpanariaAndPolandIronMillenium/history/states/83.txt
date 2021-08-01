@@ -1,0 +1,34 @@
+
+state={
+	id=83
+	name="STATE_83"
+	resources={
+		oil=15.000
+		tungsten=38.000
+	}
+
+	history={
+		owner = CAN
+		victory_points = {
+			1408 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1408 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = CAN
+	}
+
+	provinces={
+		917 1214 1323 1393 1408 1411 1420 1737 1799 1858 4343 4385 4413 4428 4870 4877 7259 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12259 12272 12578 
+	}
+	manpower=120272
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

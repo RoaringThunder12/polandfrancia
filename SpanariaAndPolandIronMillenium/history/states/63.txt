@@ -1,0 +1,36 @@
+
+state={
+	id=63
+	name="STATE_63"
+	resources={
+		aluminium=39.000
+		chromium=19.000
+		steel=15.000
+		tungsten=13.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			4109 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4109 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		976 1109 1205 3864 3988 4109 7127 11895 12001 
+	}
+	manpower=675904
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

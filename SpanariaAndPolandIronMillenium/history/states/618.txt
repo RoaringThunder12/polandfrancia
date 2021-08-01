@@ -1,0 +1,31 @@
+
+state={
+	id=618
+	name="STATE_618"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			6542 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X14
+		add_claim_by = FRA
+	}
+
+	provinces={
+		3530 3679 3692 6542 6568 6581 6712 6934 11640 
+	}
+	manpower=1053562
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

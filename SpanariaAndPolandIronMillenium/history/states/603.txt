@@ -1,0 +1,33 @@
+
+state={
+	id=603
+	name="STATE_603"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			2229 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2229 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		2229 5154 5189 7605 7770 10963 
+	}
+	manpower=71464
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

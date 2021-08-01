@@ -1,0 +1,35 @@
+
+state={
+	id=342
+	name="STATE_342"
+	resources={
+		oil=0.000
+		steel=49.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			516 4 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			6446 = {
+				naval_base = 8
+			}
+			air_base = 2
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		480 516 3576 6446 6560 6598 9574 11419 13068 
+	}
+	manpower=3532352
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

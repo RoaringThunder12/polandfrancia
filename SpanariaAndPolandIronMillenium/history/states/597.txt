@@ -1,0 +1,30 @@
+
+state={
+	id=597
+	name="STATE_597"
+	resources={
+		chromium=7.000
+		steel=18.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			4822 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1509 4822 5203 10668 10697 
+	}
+	manpower=430780
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

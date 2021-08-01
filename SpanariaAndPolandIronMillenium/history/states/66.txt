@@ -1,0 +1,33 @@
+
+state={
+	id=66
+	name="STATE_66"
+	resources={
+		chromium=8.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			11984 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11984 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		7193 11984 
+	}
+	manpower=270792
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

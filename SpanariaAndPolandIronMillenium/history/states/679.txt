@@ -1,0 +1,32 @@
+
+state={
+	id=679
+	name="STATE_679"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = X42
+		victory_points = {
+			8085 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8085 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2089 8085 
+	}
+	manpower=194168
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

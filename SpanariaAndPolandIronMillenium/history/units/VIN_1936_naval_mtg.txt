@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 1185
+		task_force = {
+			name = "3rd Fleet"
+			location = 1185
+			ship = { name = "1st Prachinburi Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "1st Hatien Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "1st Kampot Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "1st Hai Phong Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "1st Vinh Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Prachinburi Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Kampot Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Hatien Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Hai Phong Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Vinh Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Prachinburi Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Hai Phong Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "4th Prachinburi Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Kampot Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = VIN version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "VIN"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

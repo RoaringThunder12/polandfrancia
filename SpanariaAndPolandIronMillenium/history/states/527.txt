@@ -1,0 +1,17 @@
+
+state={
+	id=527
+	name="STATE_527"
+	impassable = yes
+
+	history={
+		owner = MOR
+	}
+
+	provinces={
+		1095 1958 7041 8088 
+	}
+	manpower=63652
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

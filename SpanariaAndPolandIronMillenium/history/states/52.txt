@@ -1,0 +1,32 @@
+
+state={
+	id=52
+	name="STATE_52"
+	resources={
+		aluminium=2.000
+		chromium=13.000
+		steel=0.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			4556 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X03
+	}
+
+	provinces={
+		4556 
+	}
+	manpower=142040
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

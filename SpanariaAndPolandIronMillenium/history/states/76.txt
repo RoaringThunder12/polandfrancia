@@ -1,0 +1,41 @@
+
+state={
+	id=76
+	name="STATE_76"
+
+	history={
+		owner = X04
+		victory_points = {
+			705 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			705 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = X04
+		EST = {
+			set_province_controller = 705
+			set_province_controller = 3686
+			set_province_controller = 3722
+			set_province_controller = 6704
+			set_province_controller = 6724
+			set_province_controller = 9677
+			set_province_controller = 9680
+			set_province_controller = 9718
+			set_province_controller = 11649
+		}
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+	manpower=296904
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

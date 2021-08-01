@@ -1,0 +1,6 @@
+name="Converted - SpanariaAndPolandIronMillenium"
+replace_path="common/ideologies"
+replace_path="history/countries"
+replace_path="history/states"
+supported_version="1.10.*"
+path="C:/Users/Ethan/Documents/Paradox Interactive/Hearts of Iron IV/mod/SpanariaAndPolandIronMillenium"

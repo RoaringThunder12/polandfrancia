@@ -1,0 +1,414 @@
+﻿capital = 633
+set_research_slots = 3
+
+oob = "SPR_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SPR_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "SPR_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+set_convoys = 2
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = SPR }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 87 producer = SPR }
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = GDL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X09
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = GDL
+        puppet = X09
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = SPR_research
+}
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1917.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 0
+	communism = 0
+	democratic = 49
+	neutrality = 51
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_34 }
+add_opinion_modifier = { target = ARM modifier = negative_200 }
+add_opinion_modifier = { target = AUS modifier = negative_85 }
+add_opinion_modifier = { target = BOL modifier = negative_200 }
+add_opinion_modifier = { target = COG modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_110 }
+add_opinion_modifier = { target = CRO modifier = positive_8 }
+give_military_access = CRO
+add_opinion_modifier = { target = CSA modifier = negative_30 }
+add_opinion_modifier = { target = DDR modifier = negative_60 }
+add_opinion_modifier = { target = EGY modifier = negative_65 }
+give_military_access = EGY
+add_opinion_modifier = { target = ENG modifier = positive_117 }
+give_military_access = ENG
+add_opinion_modifier = { target = EST modifier = negative_200 }
+add_opinion_modifier = { target = FRA modifier = positive_106 }
+add_opinion_modifier = { target = GDL modifier = positive_200 }
+add_opinion_modifier = { target = HUN modifier = negative_92 }
+add_opinion_modifier = { target = ITA modifier = positive_170 }
+add_opinion_modifier = { target = KEN modifier = negative_30 }
+add_opinion_modifier = { target = LBA modifier = negative_20 }
+add_opinion_modifier = { target = MAL modifier = negative_20 }
+add_opinion_modifier = { target = MOR modifier = negative_200 }
+add_opinion_modifier = { target = NZL modifier = negative_110 }
+add_opinion_modifier = { target = PHI modifier = negative_30 }
+add_opinion_modifier = { target = POR modifier = negative_163 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = positive_134 }
+add_opinion_modifier = { target = X05 modifier = negative_30 }
+add_opinion_modifier = { target = X06 modifier = negative_30 }
+add_opinion_modifier = { target = X09 modifier = positive_200 }
+add_opinion_modifier = { target = X10 modifier = negative_140 }
+add_opinion_modifier = { target = X14 modifier = positive_19 }
+add_opinion_modifier = { target = X17 modifier = negative_10 }
+add_opinion_modifier = { target = X25 modifier = negative_10 }
+add_opinion_modifier = { target = X27 modifier = negative_30 }
+add_opinion_modifier = { target = X31 modifier = negative_50 }
+add_opinion_modifier = { target = X33 modifier = negative_30 }
+add_opinion_modifier = { target = X34 modifier = positive_70 }
+add_opinion_modifier = { target = X38 modifier = negative_30 }
+add_opinion_modifier = { target = X39 modifier = negative_110 }
+add_opinion_modifier = { target = X44 modifier = negative_200 }
+give_military_access = X48
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+add_opinion_modifier = { target = ZAM modifier = negative_30 }
+add_opinion_modifier = { target = ZIM modifier = negative_30 }
+
+
+add_ideas = {
+	SPR_monarch
+	disarmed_nation
+	low_economic_mobilisation
+	export_focus
+	culture_andalucian
+}
+set_stability = 0.60
+set_war_support = 0.76
+create_country_leader = {
+	name = "Sulayman al-Isibili"
+	desc = "POLITICS_SULAYMAN_AL-ISIBILI_DESC"
+	picture = "gfx/leaders/OC/portrait_IRQ_Hashim_al_Atassi.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Ibrahim ibn Sulayman"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ahmad al-Valansi"
+	traits = { }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hajjaj al-Mari"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Musa ibn Isa"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Sayyid al-Sabti"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Abd al-Aziz al-Fath"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SPR }
+	}
+
+	create_operative_leader = {
+		name = "Uthman al-Andalusi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SPR }
+	}
+
+	create_operative_leader = {
+		name = "Abd al-Rahman al-Mayurqui"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SPR }
+	}
+
+	create_operative_leader = {
+		name = "Ali ibn Ibrahim"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SPR }
+	}
+
+	create_operative_leader = {
+		name = "Ahmad ibn Yahya"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SPR }
+	}
+
+	create_operative_leader = {
+		name = "Abd Allah al-Fath"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SPR }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SPR_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = SPR_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = SPR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = SPR_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = SPR_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

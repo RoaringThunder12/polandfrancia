@@ -1,0 +1,33 @@
+
+state={
+	id=543
+	name="STATE_543"
+	resources={
+		chromium=2.000
+		oil=0.000
+		steel=0.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X29
+		victory_points = {
+			10826 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X29
+	}
+
+	provinces={
+		10826 12831 
+	}
+	manpower=168560
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

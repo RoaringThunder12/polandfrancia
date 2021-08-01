@@ -1,0 +1,776 @@
+AUS = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+BOL = {
+	army = {
+		male = {
+			"gfx/leaders/OC/portrait_Apocalypto_absolutist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_communist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_democratic.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_fascist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_neutral.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_radical.dds"
+			"gfx/leaders/OC/portrait_nat_carib_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_communist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_carib_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_carib_radical.dds"
+			"gfx/leaders/OC/portrait_nat_north_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_north_communist.dds"
+			"gfx/leaders/OC/portrait_nat_north_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_north_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_north_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_north_radical.dds"
+			"gfx/leaders/OC/portrait_nat_south_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_south_communist.dds"
+			"gfx/leaders/OC/portrait_nat_south_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_south_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_south_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_south_radical.dds"
+			"gfx/leaders/OC/portrait_Native_American.dds"
+			"gfx/leaders/OC/Portrait_Lakota_Russell_Means.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/OC/portrait_Apocalypto_absolutist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_communist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_democratic.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_fascist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_neutral.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_radical.dds"
+			"gfx/leaders/OC/portrait_nat_carib_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_communist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_carib_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_carib_radical.dds"
+			"gfx/leaders/OC/portrait_nat_north_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_north_communist.dds"
+			"gfx/leaders/OC/portrait_nat_north_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_north_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_north_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_north_radical.dds"
+			"gfx/leaders/OC/portrait_nat_south_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_south_communist.dds"
+			"gfx/leaders/OC/portrait_nat_south_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_south_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_south_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_south_radical.dds"
+			"gfx/leaders/OC/portrait_Native_American.dds"
+			"gfx/leaders/OC/Portrait_Lakota_Russell_Means.dds"
+		}
+	}
+}
+
+BRD = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+CAN = {
+	army = {
+		male = {
+			"gfx/leaders/OC/portrait_Apocalypto_absolutist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_communist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_democratic.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_fascist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_neutral.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_radical.dds"
+			"gfx/leaders/OC/portrait_nat_carib_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_communist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_carib_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_carib_radical.dds"
+			"gfx/leaders/OC/portrait_nat_north_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_north_communist.dds"
+			"gfx/leaders/OC/portrait_nat_north_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_north_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_north_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_north_radical.dds"
+			"gfx/leaders/OC/portrait_nat_south_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_south_communist.dds"
+			"gfx/leaders/OC/portrait_nat_south_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_south_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_south_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_south_radical.dds"
+			"gfx/leaders/OC/portrait_Native_American.dds"
+			"gfx/leaders/OC/Portrait_Lakota_Russell_Means.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/OC/portrait_Apocalypto_absolutist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_communist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_democratic.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_fascist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_neutral.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_radical.dds"
+			"gfx/leaders/OC/portrait_nat_carib_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_communist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_carib_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_carib_radical.dds"
+			"gfx/leaders/OC/portrait_nat_north_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_north_communist.dds"
+			"gfx/leaders/OC/portrait_nat_north_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_north_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_north_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_north_radical.dds"
+			"gfx/leaders/OC/portrait_nat_south_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_south_communist.dds"
+			"gfx/leaders/OC/portrait_nat_south_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_south_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_south_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_south_radical.dds"
+			"gfx/leaders/OC/portrait_Native_American.dds"
+			"gfx/leaders/OC/Portrait_Lakota_Russell_Means.dds"
+		}
+	}
+}
+
+CSA = {
+	army = {
+		male = {
+			"gfx/leaders/OC/portrait_Apocalypto_absolutist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_communist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_democratic.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_fascist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_neutral.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_radical.dds"
+			"gfx/leaders/OC/portrait_nat_carib_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_communist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_carib_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_carib_radical.dds"
+			"gfx/leaders/OC/portrait_nat_north_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_north_communist.dds"
+			"gfx/leaders/OC/portrait_nat_north_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_north_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_north_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_north_radical.dds"
+			"gfx/leaders/OC/portrait_nat_south_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_south_communist.dds"
+			"gfx/leaders/OC/portrait_nat_south_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_south_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_south_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_south_radical.dds"
+			"gfx/leaders/OC/portrait_Native_American.dds"
+			"gfx/leaders/OC/Portrait_Lakota_Russell_Means.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/OC/portrait_Apocalypto_absolutist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_communist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_democratic.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_fascist.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_neutral.dds"
+			"gfx/leaders/OC/portrait_Apocalypto_radical.dds"
+			"gfx/leaders/OC/portrait_nat_carib_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_communist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_carib_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_carib_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_carib_radical.dds"
+			"gfx/leaders/OC/portrait_nat_north_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_north_communist.dds"
+			"gfx/leaders/OC/portrait_nat_north_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_north_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_north_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_north_radical.dds"
+			"gfx/leaders/OC/portrait_nat_south_absolutist.dds"
+			"gfx/leaders/OC/portrait_nat_south_communist.dds"
+			"gfx/leaders/OC/portrait_nat_south_democratic.dds"
+			"gfx/leaders/OC/portrait_nat_south_fascist.dds"
+			"gfx/leaders/OC/portrait_nat_south_neutral.dds"
+			"gfx/leaders/OC/portrait_nat_south_radical.dds"
+			"gfx/leaders/OC/portrait_Native_American.dds"
+			"gfx/leaders/OC/Portrait_Lakota_Russell_Means.dds"
+		}
+	}
+}
+
+DAH = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+DDR = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+GHA = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+IVO = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+LIB = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+MLI = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+MRT = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+NMB = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+RAJ = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+RCG = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+RWA = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+SUD = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+UGA = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+X08 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X18 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X28 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X29 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X32 = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+X35 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X43 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X44 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X50 = {
+	army = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+			"gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+		}
+	}
+}
+
+X55 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X59 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+
+X60 = {
+	army = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+		}
+	}
+}
+

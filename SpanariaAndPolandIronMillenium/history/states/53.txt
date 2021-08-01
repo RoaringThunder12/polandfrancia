@@ -1,0 +1,33 @@
+
+state={
+	id=53
+	name="STATE_53"
+	resources={
+		oil=28.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			657 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			657 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		657 687 3076 9614 9635 11597 
+	}
+	manpower=509264
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

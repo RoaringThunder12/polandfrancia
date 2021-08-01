@@ -1,0 +1,31 @@
+
+state={
+	id=354
+	name="STATE_354"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			10807 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X32
+		add_claim_by = X18
+	}
+
+	provinces={
+		1949 2036 2105 4106 4410 5040 5096 7080 7938 8076 10332 10807 10816 11995 12080 12743 
+	}
+	manpower=4838128
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

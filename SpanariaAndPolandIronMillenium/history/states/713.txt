@@ -1,0 +1,31 @@
+
+state={
+	id=713
+	name="STATE_713"
+	resources={
+		chromium=1.000
+		steel=4.000
+	}
+
+	history={
+		owner = EST
+		victory_points = {
+			1859 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		1728 1743 1791 1798 1834 1859 1868 4697 4732 4792 4801 4862 4873 4882 7676 7717 7823 7885 10554 10575 10578 10623 10647 10708 12533 12557 12579 12605 12629 12649 12665 12675 
+	}
+	manpower=443732
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

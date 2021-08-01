@@ -1,0 +1,31 @@
+
+state={
+	id=741
+	name="STATE_741"
+	resources={
+		chromium=9.000
+	}
+
+	history={
+		victory_points = {
+			2200 0 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			2200 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2200 5185 8180 8246 11015 12956 
+	}
+	manpower=857600
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

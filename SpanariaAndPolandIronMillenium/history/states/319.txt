@@ -1,0 +1,37 @@
+
+state={
+	id=319
+	name="STATE_319"
+	resources={
+		aluminium=1.000
+		oil=7.000
+		rubber=74.000
+		steel=0.000
+	}
+
+	history={
+		owner = X54
+		victory_points = {
+			4361 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10382 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = X54
+		add_claim_by = MAL
+	}
+
+	provinces={
+		1342 1460 1533 4320 4361 7308 7368 7440 10194 10354 10382 12138 12165 12209 12415 
+	}
+	manpower=231192
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

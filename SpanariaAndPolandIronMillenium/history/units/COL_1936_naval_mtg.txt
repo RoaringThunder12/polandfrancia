@@ -1,0 +1,59 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10494
+		task_force = {
+			name = "1st Fleet"
+			location = 10494
+			ship = { name = "Antonia Manuela" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Emprendedora" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Guaviare" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Magdalena" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Ornico" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Peacock" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Maracaibo Commerce Raider" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "4th Guayaquil Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "5th Guayaquil Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Chitty" definition = destroyer start_experience_factor = 0.04985 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Putumayo" definition = destroyer start_experience_factor = 0.04807 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Caracas Commerce Raider" definition = destroyer start_experience_factor = 0.04863 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Guayaquil Commerce Raider" definition = destroyer start_experience_factor = 0.04906 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Buenaventura Commerce Raider" definition = destroyer start_experience_factor = 0.09491 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Guayaquil Commerce Raider" definition = destroyer start_experience_factor = 0.0964 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Caracas Commerce Raider" definition = destroyer start_experience_factor = 0.14631 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Guayaquil Commerce Raider" definition = destroyer start_experience_factor = 0.14748 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Maracaibo Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Panama City Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Aventina" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Panama City Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Panama City Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "4th Panama City Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "5th Panama City Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "1st Quibdó Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "6th Panama City Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Maracaibo Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7991
+		task_force = {
+			name = "2nd Fleet"
+			location = 7991
+			ship = { name = "2nd Buenaventura Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "COL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

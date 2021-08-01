@@ -1,0 +1,30 @@
+
+state={
+	id=73
+	name="STATE_73"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = X04
+		victory_points = {
+			4550 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		1074 4111 4550 7513 10383 12316 12442 
+	}
+	manpower=486476
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

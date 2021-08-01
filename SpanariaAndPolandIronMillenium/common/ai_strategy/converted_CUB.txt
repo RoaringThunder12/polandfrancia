@@ -1,0 +1,126 @@
+﻿converted_war_strategies_CUB = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CSA"
+		value = 420
+	}
+}
+
+converted_diplo_strategies_CUB = {
+	enable = {
+		tag = CUB
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X39"
+		value = 225
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAN"
+		value = 139
+	}
+	ai_strategy = {
+		type = contain
+		id = "GDL"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X25"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "COL"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X09"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "CSA"
+		value = 95
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 86
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CSA"
+		value = 190
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X25"
+		value = 119
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X49"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 103
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CSA"
+		value = 98
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = 21
+	}
+	ai_strategy = {
+		type = protect
+		id = "GDL"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "X25"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "X09"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X35"
+		value = 119
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X43"
+		value = 66
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CRO"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "EGY"
+		value = 42
+	}
+}

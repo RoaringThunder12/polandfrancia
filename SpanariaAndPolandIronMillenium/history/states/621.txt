@@ -1,0 +1,28 @@
+
+state={
+	id=621
+	name="STATE_621"
+
+	history={
+		owner = X14
+		victory_points = {
+			11544 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = X14
+		add_claim_by = FRA
+	}
+
+	provinces={
+		586 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 13116 
+	}
+	manpower=2639168
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

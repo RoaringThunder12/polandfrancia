@@ -1,0 +1,151 @@
+﻿converted_war_strategies_SAU = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X24"
+		value = 1500
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 903
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X42"
+		value = 400
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X07"
+		value = 162
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X00"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ARM"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X45"
+		value = 99
+	}
+}
+
+converted_diplo_strategies_SAU = {
+	enable = {
+		tag = SAU
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X07"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X45"
+		value = 308
+	}
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 117
+	}
+	ai_strategy = {
+		type = contain
+		id = "X00"
+		value = 83
+	}
+	ai_strategy = {
+		type = contain
+		id = "KEN"
+		value = 79
+	}
+	ai_strategy = {
+		type = contain
+		id = "X05"
+		value = 57
+	}
+	ai_strategy = {
+		type = contain
+		id = "X24"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X00"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X45"
+		value = 196
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EGY"
+		value = 150
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X24"
+		value = 150
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X07"
+		value = 147
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X42"
+		value = 75
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ARM"
+		value = 19
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "EGY"
+		value = 56
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X45"
+		value = 114
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X02"
+		value = 86
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X25"
+		value = 86
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X26"
+		value = 66
+	}
+}

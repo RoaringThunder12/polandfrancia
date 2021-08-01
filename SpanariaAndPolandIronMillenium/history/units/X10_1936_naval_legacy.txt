@@ -1,0 +1,34 @@
+units = {
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 12512
+		task_force = {
+			name = "5th Fleet"
+			location = 12512
+			ship = { name = "4th Bruges Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X10 } } }
+			ship = { name = "7th Middelburg Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X10 } } }
+			ship = { name = "Atjeh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X10 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X10"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X10"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

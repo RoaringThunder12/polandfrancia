@@ -1,0 +1,126 @@
+﻿converted_war_strategies_ZIM = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 424
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ZAM"
+		value = 47
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X38"
+		value = 42
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 15
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 6
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MLW"
+		value = 6
+	}
+}
+
+converted_diplo_strategies_ZIM = {
+	enable = {
+		tag = ZIM
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ZAM"
+		value = 357
+	}
+	ai_strategy = {
+		type = contain
+		id = "X38"
+		value = 280
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 276
+	}
+	ai_strategy = {
+		type = contain
+		id = "X27"
+		value = 180
+	}
+	ai_strategy = {
+		type = contain
+		id = "MLW"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "COG"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X03"
+		value = 76
+	}
+	ai_strategy = {
+		type = contain
+		id = "KEN"
+		value = 47
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 356
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POR"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NZL"
+		value = 144
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X13"
+		value = 70
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X12"
+		value = 66
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X47"
+		value = 47
+	}
+}

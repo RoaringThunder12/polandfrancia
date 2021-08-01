@@ -1,0 +1,30 @@
+
+state={
+	id=556
+	name="STATE_556"
+
+	history={
+		owner = X31
+		victory_points = {
+			362 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			362 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = X31
+	}
+
+	provinces={
+		266 362 3295 3351 3380 6347 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+	manpower=1415400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

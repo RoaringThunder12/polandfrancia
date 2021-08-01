@@ -1,0 +1,33 @@
+
+state={
+	id=478
+	name="STATE_478"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			12234 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12234 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		12219 12234 
+	}
+	manpower=289592
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

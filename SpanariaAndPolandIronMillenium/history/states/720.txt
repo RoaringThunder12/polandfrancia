@@ -1,0 +1,27 @@
+
+state={
+	id=720
+	name="STATE_720"
+
+	history={
+		owner = X49
+		victory_points = {
+			12973 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		2160 10924 10982 12902 12916 12973 
+	}
+	manpower=864924
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

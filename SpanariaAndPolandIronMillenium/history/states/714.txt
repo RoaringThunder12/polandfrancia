@@ -1,0 +1,30 @@
+
+state={
+	id=714
+	name="STATE_714"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = EST
+		victory_points = {
+			10627 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+	}
+	manpower=199684
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

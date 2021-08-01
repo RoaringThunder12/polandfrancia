@@ -1,0 +1,33 @@
+
+state={
+	id=183
+	name="STATE_183"
+	resources={
+		aluminium=18.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			12674 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12674 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		4861 12674 12689 
+	}
+	manpower=145628
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

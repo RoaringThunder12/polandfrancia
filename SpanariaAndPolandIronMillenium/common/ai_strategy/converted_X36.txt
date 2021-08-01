@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X36 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 168
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X20"
+		value = 56
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X19"
+		value = 50
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CSA"
+		value = 48
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PHI"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRU"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X17"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X30"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X36 = {
+	enable = {
+		tag = X36
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X19"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "PHI"
+		value = 235
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRU"
+		value = 158
+	}
+	ai_strategy = {
+		type = contain
+		id = "X17"
+		value = 154
+	}
+	ai_strategy = {
+		type = contain
+		id = "X20"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X19"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X17"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PHI"
+		value = 83
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 38
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 38
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CSA"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRU"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X30"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X20"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRU"
+		value = 60
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X19"
+		value = 150
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X01"
+		value = 133
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MAL"
+		value = 99
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X13"
+		value = 92
+	}
+}

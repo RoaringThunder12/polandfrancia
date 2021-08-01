@@ -1,0 +1,33 @@
+
+state={
+	id=542
+	name="STATE_542"
+	resources={
+		aluminium=3.000
+		chromium=3.000
+		steel=3.000
+	}
+
+	history={
+		owner = X28
+		victory_points = {
+			10401 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X32
+		add_claim_by = X28
+	}
+
+	provinces={
+		1510 1579 7574 8120 10401 12420 
+	}
+	manpower=2173504
+	buildings_max_level_factor=1.000
+	state_category=town
+}

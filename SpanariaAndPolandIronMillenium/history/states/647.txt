@@ -1,0 +1,37 @@
+
+state={
+	id=647
+	name="STATE_647"
+	resources={
+		oil=15.000
+		rubber=232.000
+		steel=4.000
+	}
+
+	history={
+		owner = X37
+		victory_points = {
+			7381 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			7381 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = X20
+		add_core_of = X37
+	}
+
+	provinces={
+		1209 1386 1398 1413 1425 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 
+	}
+	manpower=3930148
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

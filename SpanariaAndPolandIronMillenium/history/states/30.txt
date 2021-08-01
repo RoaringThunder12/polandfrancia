@@ -1,0 +1,33 @@
+
+state={
+	id=30
+	name="STATE_30"
+	resources={
+		aluminium=1.000
+		steel=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			671 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = AUS
+		add_core_of = DDR
+	}
+
+	provinces={
+		671 673 688 3675 6678 6680 9633 9636 11618 11634 
+	}
+	manpower=797528
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

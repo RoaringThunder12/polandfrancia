@@ -1,0 +1,29 @@
+
+state={
+	id=641
+	name="STATE_641"
+
+	history={
+		owner = SPR
+		victory_points = {
+			13016 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			13016 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		13013 13016 
+	}
+	manpower=341300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

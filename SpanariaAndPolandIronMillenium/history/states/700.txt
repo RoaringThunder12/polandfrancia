@@ -1,0 +1,31 @@
+
+state={
+	id=700
+	name="STATE_700"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X60
+		victory_points = {
+			4425 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X60
+		add_claim_by = X12
+	}
+
+	provinces={
+		1082 4425 8063 10920 12464 
+	}
+	manpower=430860
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

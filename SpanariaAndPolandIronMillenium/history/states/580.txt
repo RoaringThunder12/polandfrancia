@@ -1,0 +1,33 @@
+
+state={
+	id=580
+	name="STATE_580"
+	resources={
+		aluminium=2.000
+		rubber=2.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			2080 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1903 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1903 2080 5054 
+	}
+	manpower=759788
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

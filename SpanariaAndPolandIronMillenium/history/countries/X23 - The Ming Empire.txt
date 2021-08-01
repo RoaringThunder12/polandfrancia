@@ -1,0 +1,372 @@
+﻿capital = 513
+set_research_slots = 2
+
+oob = "X23_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X23_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X23_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+
+# Research Bonuses
+set_convoys = 0
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1081 producer = X23 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 516 producer = X23 }
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 69
+	democratic = 27
+	neutrality = 4
+}
+
+add_opinion_modifier = { target = ARM modifier = negative_20 }
+add_opinion_modifier = { target = BRU modifier = negative_12 }
+add_opinion_modifier = { target = CAR modifier = negative_20 }
+add_opinion_modifier = { target = COG modifier = negative_30 }
+add_opinion_modifier = { target = CSA modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_20 }
+add_opinion_modifier = { target = EST modifier = positive_107 }
+add_opinion_modifier = { target = GDL modifier = negative_10 }
+add_opinion_modifier = { target = JAP modifier = negative_31 }
+add_opinion_modifier = { target = KEN modifier = negative_10 }
+add_opinion_modifier = { target = KOR modifier = negative_21 }
+add_opinion_modifier = { target = MAL modifier = negative_8 }
+add_opinion_modifier = { target = MEX modifier = negative_20 }
+add_opinion_modifier = { target = MLW modifier = negative_20 }
+add_opinion_modifier = { target = MOR modifier = negative_20 }
+add_opinion_modifier = { target = RAJ modifier = positive_11 }
+add_opinion_modifier = { target = SAU modifier = negative_20 }
+add_opinion_modifier = { target = SIA modifier = negative_50 }
+add_opinion_modifier = { target = TUN modifier = negative_20 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+add_opinion_modifier = { target = X01 modifier = negative_20 }
+add_opinion_modifier = { target = X02 modifier = negative_20 }
+add_opinion_modifier = { target = X03 modifier = negative_20 }
+add_opinion_modifier = { target = X05 modifier = negative_10 }
+add_opinion_modifier = { target = X06 modifier = negative_10 }
+add_opinion_modifier = { target = X07 modifier = negative_20 }
+add_opinion_modifier = { target = X08 modifier = positive_101 }
+add_opinion_modifier = { target = X09 modifier = negative_10 }
+add_opinion_modifier = { target = X11 modifier = negative_20 }
+add_opinion_modifier = { target = X12 modifier = negative_37 }
+give_military_access = X12
+add_opinion_modifier = { target = X13 modifier = negative_38 }
+give_military_access = X15
+give_military_access = X17
+add_opinion_modifier = { target = X18 modifier = negative_32 }
+give_military_access = X18
+give_military_access = X19
+add_opinion_modifier = { target = X20 modifier = negative_20 }
+add_opinion_modifier = { target = X21 modifier = negative_32 }
+add_opinion_modifier = { target = X24 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = positive_88 }
+add_opinion_modifier = { target = X27 modifier = negative_10 }
+add_opinion_modifier = { target = X28 modifier = negative_41 }
+add_opinion_modifier = { target = X30 modifier = negative_27 }
+add_opinion_modifier = { target = X33 modifier = negative_10 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+add_opinion_modifier = { target = X38 modifier = negative_10 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = negative_20 }
+add_opinion_modifier = { target = X41 modifier = negative_17 }
+add_opinion_modifier = { target = X42 modifier = positive_64 }
+add_opinion_modifier = { target = X44 modifier = negative_115 }
+add_opinion_modifier = { target = X45 modifier = negative_20 }
+add_opinion_modifier = { target = X46 modifier = negative_20 }
+add_opinion_modifier = { target = X47 modifier = negative_25 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+add_opinion_modifier = { target = ZAM modifier = negative_10 }
+add_opinion_modifier = { target = ZIM modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_beifaren
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Kong Wei"
+	desc = "POLITICS_KONG_WEI_DESC"
+	picture = "GFX_portrait_man_henry_pu_yi_emperor"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Hu Wu"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Xie Tian"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Dong Qiu"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Li Wu"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Luzhen Fang"
+		GFX = "gfx/leaders/CHI/portrait_chi_yoshiko_kawashima.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X23 }
+	}
+
+	create_operative_leader = {
+		name = "Tan Hu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X23 }
+	}
+
+	create_operative_leader = {
+		name = "Kwong Ma"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X23 }
+	}
+
+	create_operative_leader = {
+		name = "Mao Wu"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X23 }
+	}
+
+	create_operative_leader = {
+		name = "Hu Fang"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X23 }
+	}
+
+	create_operative_leader = {
+		name = "Xie Jiang"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X23 }
+	}
+
+	create_operative_leader = {
+		name = "Xie Ma"
+		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_asia_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X23 }
+	}
+
+	create_operative_leader = {
+		name = "Yu Peng"
+		GFX = "gfx/leaders/OC/r56_generic/r56_portrait_generic_operative_asia_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X23 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X23_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X23_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X23_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

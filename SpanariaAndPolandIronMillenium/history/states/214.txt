@@ -1,0 +1,29 @@
+
+state={
+	id=214
+	name="STATE_214"
+
+	history={
+		owner = ENG
+		victory_points = {
+			9962 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = BRD
+		add_claim_by = RWA
+		add_claim_by = TZN
+	}
+
+	provinces={
+		2176 2206 2220 4171 5180 5224 8144 9962 10932 10988 11017 
+	}
+	manpower=2192416
+	buildings_max_level_factor=1.000
+	state_category=town
+}

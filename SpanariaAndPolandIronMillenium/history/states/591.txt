@@ -1,0 +1,32 @@
+
+state={
+	id=591
+	name="STATE_591"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			12237 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12237 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2129 4317 4418 5135 7365 7409 10251 10954 10974 11004 11018 12193 12237 12428 12931 
+	}
+	manpower=409824
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

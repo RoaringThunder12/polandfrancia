@@ -1,0 +1,72 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 9809
+		task_force = {
+			name = "4th Fleet"
+			location = 5412
+			ship = { name = "3rd Ulcinj Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Smyrne Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 9809
+		task_force = {
+			name = "12th Fleet"
+			location = 5937
+			ship = { name = "Zakynthos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Arta Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Polygyros Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Ulcinj Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Leon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Panthir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Makedonía" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Ifestos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Aetos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Ierax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Limnos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Varna Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Burgas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Burgas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "1st Nikomedia Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Naxos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "Évia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "4th Burgas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Arta Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Nikomedia Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Ulcinj Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+			ship = { name = "2nd Varna Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9809
+		task_force = {
+			name = "3rd Fleet"
+			location = 5937
+			ship = { name = "3rd Arta Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X04 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X04"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X04"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

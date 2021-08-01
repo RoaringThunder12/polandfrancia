@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X10 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 527
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 222
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CSA"
+		value = 192
+	}
+}
+
+converted_diplo_strategies_X10 = {
+	enable = {
+		tag = X10
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X14"
+		value = 330
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 319
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 316
+	}
+	ai_strategy = {
+		type = contain
+		id = "EST"
+		value = 315
+	}
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = "X31"
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 328
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 184
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X48"
+		value = 120
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CRO"
+		value = 107
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 94
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X34"
+		value = 91
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DDR"
+		value = 79
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CSA"
+		value = 64
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X04"
+		value = 50
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X31"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 180
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = 161
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POR"
+		value = 156
+	}
+	ai_strategy = {
+		type = protect
+		id = "DDR"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "DDR"
+		value = 142
+	}
+}

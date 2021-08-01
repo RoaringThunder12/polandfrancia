@@ -1,0 +1,110 @@
+﻿capital = 246
+set_research_slots = 2
+
+oob = "TZN_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "TZN_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "TZN_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 28
+	democratic = 67
+	neutrality = 5
+}
+
+add_opinion_modifier = { target = BAN modifier = negative_20 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_20 }
+add_opinion_modifier = { target = COL modifier = negative_110 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_120 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+add_opinion_modifier = { target = KEN modifier = negative_100 }
+add_opinion_modifier = { target = KOR modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = negative_20 }
+add_opinion_modifier = { target = MLW modifier = negative_100 }
+add_opinion_modifier = { target = MOR modifier = negative_20 }
+add_opinion_modifier = { target = POR modifier = negative_100 }
+add_opinion_modifier = { target = SAU modifier = negative_20 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X00 modifier = negative_20 }
+add_opinion_modifier = { target = X01 modifier = negative_20 }
+add_opinion_modifier = { target = X02 modifier = negative_20 }
+add_opinion_modifier = { target = X04 modifier = negative_100 }
+add_opinion_modifier = { target = X05 modifier = negative_100 }
+add_opinion_modifier = { target = X12 modifier = negative_20 }
+add_opinion_modifier = { target = X15 modifier = negative_20 }
+add_opinion_modifier = { target = X17 modifier = negative_30 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X19 modifier = negative_20 }
+add_opinion_modifier = { target = X20 modifier = negative_20 }
+add_opinion_modifier = { target = X21 modifier = negative_20 }
+add_opinion_modifier = { target = X23 modifier = negative_20 }
+add_opinion_modifier = { target = X24 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = negative_20 }
+add_opinion_modifier = { target = X28 modifier = negative_20 }
+add_opinion_modifier = { target = X30 modifier = negative_20 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+add_opinion_modifier = { target = X35 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = negative_20 }
+add_opinion_modifier = { target = X38 modifier = negative_100 }
+add_opinion_modifier = { target = X39 modifier = negative_110 }
+add_opinion_modifier = { target = X41 modifier = negative_20 }
+add_opinion_modifier = { target = X42 modifier = negative_20 }
+add_opinion_modifier = { target = X43 modifier = negative_20 }
+add_opinion_modifier = { target = X44 modifier = negative_20 }
+add_opinion_modifier = { target = X45 modifier = negative_20 }
+add_opinion_modifier = { target = X46 modifier = negative_20 }
+add_opinion_modifier = { target = X47 modifier = negative_20 }
+add_opinion_modifier = { target = X49 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_african_minor
+}
+create_country_leader = {
+	name = "Morathi Mussa"
+	desc = "POLITICS_MORATHI_MUSSA_DESC"
+	picture = "gfx/leaders/OC/portrait_Vic1_African_leader.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "FNU LNU"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

@@ -1,0 +1,91 @@
+﻿converted_war_strategies_GNB = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X14"
+		value = 1241
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 730
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DDR"
+		value = 657
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AUS"
+		value = 292
+	}
+}
+
+converted_diplo_strategies_GNB = {
+	enable = {
+		tag = GNB
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 269
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X14"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 243
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 97
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X34"
+		value = 184
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 171
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 164
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X02"
+		value = 92
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NZL"
+		value = 70
+	}
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=551
+	name="STATE_551"
+	resources={
+		rubber=338.000
+		steel=11.000
+		tungsten=122.000
+	}
+
+	history={
+		owner = X57
+		victory_points = {
+			12299 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12299 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAL
+		add_core_of = X21
+		add_core_of = X57
+		add_claim_by = BRU
+	}
+
+	provinces={
+		1392 4367 4384 4424 7399 7427 10313 12255 12271 12299 
+	}
+	manpower=499788
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

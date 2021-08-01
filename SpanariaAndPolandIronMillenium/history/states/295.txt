@@ -1,0 +1,27 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = EST
+		victory_points = {
+			1745 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = EST
+	}
+
+	provinces={
+		1722 1745 2853 2877 3184 7817 10589 
+	}
+	manpower=188276
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

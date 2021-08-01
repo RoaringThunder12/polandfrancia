@@ -1,0 +1,31 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		steel=42.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			587 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_core_of = X14
+	}
+
+	provinces={
+		529 587 3444 6469 6570 9482 9522 
+	}
+	manpower=6999764
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

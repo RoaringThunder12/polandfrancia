@@ -1,0 +1,35 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1149
+		task_force = {
+			name = "1st Fleet"
+			location = 1149
+			ship = { name = "Alif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA } } }
+			ship = { name = "Amin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA } } }
+			ship = { name = "Anwar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA } } }
+			ship = { name = "Ayham" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LBA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "LBA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "LBA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=619
+	name="STATE_619"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			9517 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = X14
+		add_core_of = FRA
+	}
+
+	provinces={
+		519 694 3690 6555 9517 9545 9655 11486 11499 
+	}
+	manpower=2905000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

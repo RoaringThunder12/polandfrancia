@@ -1,0 +1,309 @@
+﻿capital = 62
+set_research_slots = 3
+
+oob = "X04_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X04_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X04_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+set_convoys = 25
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = X04 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 91 producer = X04 }
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = LBA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = TUN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = LBA
+        puppet = TUN
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = X04_research
+}
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1917.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	communism = 1
+	democratic = 55
+	neutrality = 35
+}
+
+add_opinion_modifier = { target = ARM modifier = negative_200 }
+add_opinion_modifier = { target = AUS modifier = negative_176 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = CAN modifier = negative_20 }
+add_opinion_modifier = { target = CRO modifier = positive_113 }
+give_military_access = CRO
+add_opinion_modifier = { target = CSA modifier = negative_45 }
+add_opinion_modifier = { target = DDR modifier = negative_8 }
+give_military_access = DDR
+add_opinion_modifier = { target = EGY modifier = negative_49 }
+give_military_access = EGY
+add_opinion_modifier = { target = ENG modifier = positive_198 }
+add_opinion_modifier = { target = EST modifier = negative_200 }
+add_opinion_modifier = { target = GDL modifier = negative_10 }
+add_opinion_modifier = { target = HUN modifier = negative_178 }
+add_opinion_modifier = { target = ITA modifier = positive_74 }
+add_opinion_modifier = { target = KEN modifier = negative_10 }
+add_opinion_modifier = { target = LBA modifier = positive_200 }
+give_military_access = LBA
+add_opinion_modifier = { target = MEX modifier = negative_200 }
+add_opinion_modifier = { target = MOR modifier = negative_126 }
+add_opinion_modifier = { target = POR modifier = positive_196 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = SAU modifier = negative_150 }
+add_opinion_modifier = { target = SCA modifier = negative_4 }
+add_opinion_modifier = { target = SPR modifier = positive_134 }
+add_opinion_modifier = { target = TUN modifier = positive_200 }
+add_opinion_modifier = { target = X00 modifier = negative_30 }
+add_opinion_modifier = { target = X05 modifier = negative_10 }
+add_opinion_modifier = { target = X06 modifier = negative_10 }
+add_opinion_modifier = { target = X07 modifier = negative_200 }
+add_opinion_modifier = { target = X09 modifier = negative_10 }
+add_opinion_modifier = { target = X11 modifier = negative_50 }
+add_opinion_modifier = { target = X20 modifier = negative_180 }
+add_opinion_modifier = { target = X24 modifier = negative_17 }
+give_military_access = X24
+add_opinion_modifier = { target = X33 modifier = negative_10 }
+add_opinion_modifier = { target = X34 modifier = positive_10 }
+add_opinion_modifier = { target = X42 modifier = positive_24 }
+give_military_access = X42
+add_opinion_modifier = { target = X44 modifier = negative_200 }
+add_opinion_modifier = { target = X48 modifier = negative_7 }
+give_military_access = X48
+add_opinion_modifier = { target = ZAM modifier = negative_10 }
+
+
+add_ideas = {
+	X04_monarch
+	volunteer_only
+	low_economic_mobilisation
+	export_focus
+	culture_greek
+}
+set_stability = 0.60
+set_war_support = 0.65
+create_country_leader = {
+	name = "Tzannís Zymvrakákis"
+	desc = "POLITICS_TZANNíS_ZYMVRAKáKIS_DESC"
+	picture = "GFX_GRE_Panagis_Tsaldaris"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Gennaíos Saráfis"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Antónios Staïkópoulos"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Anastásios Chatzianéstis"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kítsos Tzavélas"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X04_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X04_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X04_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

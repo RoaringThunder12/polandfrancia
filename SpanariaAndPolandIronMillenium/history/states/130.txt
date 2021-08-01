@@ -1,0 +1,36 @@
+
+state={
+	id=130
+	name="STATE_130"
+	resources={
+		aluminium=3.000
+		steel=8.000
+	}
+
+	history={
+		owner = CSA
+		victory_points = {
+			6732 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			6732 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = CSA
+		add_core_of = USA
+	}
+
+	provinces={
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 
+	}
+	manpower=3721988
+	buildings_max_level_factor=1.000
+	state_category=city
+}

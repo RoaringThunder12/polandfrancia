@@ -1,0 +1,31 @@
+
+state={
+	id=22
+	name="STATE_22"
+	resources={
+		oil=114.000
+		steel=5.000
+	}
+
+	history={
+		owner = ARM
+		victory_points = {
+			7661 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ARM
+	}
+
+	provinces={
+		1467 1536 1539 1610 4473 4477 4614 6763 7495 7661 9715 11645 11674 11704 12434 
+	}
+	manpower=585060
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

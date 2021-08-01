@@ -1,0 +1,31 @@
+
+state={
+	id=171
+	name="STATE_171"
+
+	history={
+		owner = X04
+		victory_points = {
+			1130 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11954 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = EGY
+		add_claim_by = LBA
+	}
+
+	provinces={
+		1062 1127 1130 1186 1204 4060 4063 4120 4136 4151 7063 7082 7139 7206 9992 10049 10120 10123 11954 12025 12079 12094 13078 
+	}
+	manpower=407706
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

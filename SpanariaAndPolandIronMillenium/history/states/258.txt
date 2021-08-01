@@ -1,0 +1,31 @@
+
+state={
+	id=258
+	name="STATE_258"
+
+	history={
+		owner = EST
+		victory_points = {
+			3151 40 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			3151 = {
+				naval_base = 6
+			}
+			air_base = 10
+
+		}
+		add_core_of = EST
+		add_claim_by = X31
+	}
+
+	provinces={
+		79 95 104 126 149 181 415 3053 3120 3151 3310 3333 6139 6174 6197 6242 6324 9097 9098 9120 9254 9353 9408 11032 11080 11097 11139 11186 11202 11259 11392 
+	}
+	manpower=942144
+	buildings_max_level_factor=1.000
+	state_category=town
+}

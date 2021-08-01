@@ -1,0 +1,32 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = ITA
+		victory_points = {
+			11773 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			9772 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_claim_by = X34
+	}
+
+	provinces={
+		902 6891 9772 9863 11755 11773 11824 11874 
+	}
+	manpower=615116
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

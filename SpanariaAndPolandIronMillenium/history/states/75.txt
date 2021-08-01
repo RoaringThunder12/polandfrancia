@@ -1,0 +1,32 @@
+
+state={
+	id=75
+	name="STATE_75"
+
+	history={
+		owner = X04
+		victory_points = {
+			10106 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		ARM = {
+			set_province_controller = 1600
+			set_province_controller = 1938
+			set_province_controller = 10106
+			set_province_controller = 10804
+		}
+	}
+
+	provinces={
+		1600 1938 10106 10804 
+	}
+	manpower=510016
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

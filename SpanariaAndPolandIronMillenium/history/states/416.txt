@@ -1,0 +1,22 @@
+
+state={
+	id=416
+	name="STATE_416"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = X04
+		add_core_of = EGY
+		add_claim_by = LBA
+	}
+
+	provinces={
+		1057 1140 1994 4191 7985 10104 10754 10785 12866 
+	}
+	manpower=231971
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

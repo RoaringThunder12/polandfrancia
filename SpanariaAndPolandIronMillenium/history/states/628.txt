@@ -1,0 +1,34 @@
+
+state={
+	id=628
+	name="STATE_628"
+	resources={
+		chromium=6.000
+		steel=2.000
+	}
+
+	history={
+		owner = X35
+		victory_points = {
+			8098 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1179 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X32
+	}
+
+	provinces={
+		1179 4990 5043 5075 5105 7847 7917 7975 8013 8044 8066 8098 10813 12761 12774 
+	}
+	manpower=555112
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,151 @@
+﻿converted_war_strategies_JAP = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CSA"
+		value = 288
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X40"
+		value = 138
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X26"
+		value = 15
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_JAP = {
+	enable = {
+		tag = JAP
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X40"
+		value = 245
+	}
+	ai_strategy = {
+		type = contain
+		id = "X26"
+		value = 205
+	}
+	ai_strategy = {
+		type = contain
+		id = "X23"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "VIN"
+		value = 62
+	}
+	ai_strategy = {
+		type = contain
+		id = "X41"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X40"
+		value = 380
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CSA"
+		value = 288
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X26"
+		value = 196
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PHI"
+		value = 147
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X36"
+		value = 146
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X41"
+		value = 146
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X46"
+		value = 143
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KOR"
+		value = 124
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X12"
+		value = 124
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X17"
+		value = 124
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X23"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X41"
+		value = 16
+	}
+	ai_strategy = {
+		type = protect
+		id = "X40"
+		value = 165
+	}
+	ai_strategy = {
+		type = protect
+		id = "KOR"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "X26"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "POR"
+		value = 117
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ARM"
+		value = 84
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X34"
+		value = 39
+	}
+}

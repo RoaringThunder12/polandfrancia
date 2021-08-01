@@ -1,0 +1,847 @@
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_bra
+	names = { "Agência Brasileira de Inteligência" }
+	default = { tag = ARG }
+	available = { original_tag = ARG }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "NSS" }
+	default = { tag = ARM }
+	available = { original_tag = ARM }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_hun_empire
+	names = { "Evidenzbureau" }
+	default = { tag = AUS }
+	available = { original_tag = AUS }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "MI-Myanmar" }
+	default = { tag = BAN }
+	available = { original_tag = BAN }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "NISS" }
+	default = { tag = BOL }
+	available = { original_tag = BOL }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { " " }
+	default = { tag = BRD }
+	available = { original_tag = BRD }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Internal Security Department" }
+	default = { tag = BRU }
+	available = { original_tag = BRU }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Red & Black" }
+	default = { tag = CAN }
+	available = { original_tag = CAN }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "A.I.A." }
+	default = { tag = CAR }
+	available = { original_tag = CAR }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "A.I.A." }
+	default = { tag = COG }
+	available = { original_tag = COG }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Quinte Bureau" }
+	default = { tag = COL }
+	available = { original_tag = COL }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_yug
+	names = { "OZNA" }
+	default = { tag = CRO }
+	available = { original_tag = CRO }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Red & Black" }
+	default = { tag = CSA }
+	available = { original_tag = CSA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Bicho Papão" }
+	default = { tag = CUB }
+	available = { original_tag = CUB }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Intelligence Agency" }
+	default = { tag = DAH }
+	available = { original_tag = DAH }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_hun_empire
+	names = { "Intelligence Agency" }
+	default = { tag = DDR }
+	available = { original_tag = DDR }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "OMIR" }
+	default = { tag = EGY }
+	available = { original_tag = EGY }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Spehōndī" }
+	default = { tag = ENG }
+	available = { original_tag = ENG }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Kaitseväe Luurekeskus" }
+	default = { tag = EST }
+	available = { original_tag = EST }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Troubadours" }
+	default = { tag = FRA }
+	available = { original_tag = FRA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "A.I.A." }
+	default = { tag = GAM }
+	available = { original_tag = GAM }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "SIN" }
+	default = { tag = GDL }
+	available = { original_tag = GDL }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	default = { tag = GHA }
+	available = { original_tag = GHA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Intelligence Agency" }
+	default = { tag = GNB }
+	available = { original_tag = GNB }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Red & Black" }
+	default = { tag = HAW }
+	available = { original_tag = HAW }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Nemzetbiztonsági Hivatal" }
+	default = { tag = HUN }
+	available = { original_tag = HUN }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_ita
+	names = { "Servizio Informazioni Militare" }
+	default = { tag = ITA }
+	available = { original_tag = ITA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Intelligence Agency" }
+	default = { tag = IVO }
+	available = { original_tag = IVO }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_jap
+	names = { "Kenpeitai" }
+	default = { tag = JAP }
+	available = { original_tag = JAP }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "A.I.A." }
+	default = { tag = KEN }
+	available = { original_tag = KEN }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Supreme Prosecutors' Office" }
+	default = { tag = KOR }
+	available = { original_tag = KOR }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "A.I.A." }
+	default = { tag = LBA }
+	available = { original_tag = LBA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Intelligence Agency" }
+	default = { tag = LIB }
+	available = { original_tag = LIB }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Kor Risik DiRaja" }
+	default = { tag = MAL }
+	available = { original_tag = MAL }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_mex
+	names = { "Centro de Investigación y Seguridad Nacional" }
+	default = { tag = MEX }
+	available = { original_tag = MEX }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Intelligence Agency" }
+	default = { tag = MLI }
+	available = { original_tag = MLI }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "A.I.A." }
+	default = { tag = MLW }
+	available = { original_tag = MLW }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "BCIJ" }
+	default = { tag = MOR }
+	available = { original_tag = MOR }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Intelligence Agency" }
+	default = { tag = MRT }
+	available = { original_tag = MRT }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	default = { tag = NMB }
+	available = { original_tag = NMB }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "NAB" }
+	default = { tag = NZL }
+	available = { original_tag = NZL }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "NICA" }
+	default = { tag = PHI }
+	available = { original_tag = PHI }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "SIGC" }
+	default = { tag = POR }
+	available = { original_tag = POR }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "ISI" }
+	default = { tag = RAJ }
+	available = { original_tag = RAJ }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Intelligence Agency" }
+	default = { tag = RCG }
+	available = { original_tag = RCG }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Intelligence Agency" }
+	default = { tag = RWA }
+	available = { original_tag = RWA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "NISA" }
+	default = { tag = SAU }
+	available = { original_tag = SAU }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_swe
+	names = { "C-byrån" }
+	default = { tag = SCA }
+	available = { original_tag = SCA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_sia
+	names = { "National Intelligence Agency" }
+	default = { tag = SIA }
+	available = { original_tag = SIA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Intelligence Agency" }
+	default = { tag = SPR }
+	available = { original_tag = SPR }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Intelligence Agency" }
+	default = { tag = SUD }
+	available = { original_tag = SUD }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_fra
+	names = { "Sorcières de Charles" }
+	default = { tag = SWI }
+	available = { original_tag = SWI }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "KDAM" }
+	default = { tag = TAJ }
+	available = { original_tag = TAJ }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "A.I.A." }
+	default = { tag = TOG }
+	available = { original_tag = TOG }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Intelligence Agency" }
+	default = { tag = TUN }
+	available = { original_tag = TUN }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Intelligence Agency" }
+	default = { tag = TZN }
+	available = { original_tag = TZN }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Intelligence Agency" }
+	default = { tag = UGA }
+	available = { original_tag = UGA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_usa
+	names = { "Office of Strategic Services" }
+	default = { tag = USA }
+	available = { original_tag = USA }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Davlat Xavfsizlik Xizmati" }
+	default = { tag = UZB }
+	available = { original_tag = UZB }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "TC2" }
+	default = { tag = VIN }
+	available = { original_tag = VIN }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Mabahith" }
+	default = { tag = X00 }
+	available = { original_tag = X00 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Badan Intelijen Strategis TNI" }
+	default = { tag = X01 }
+	available = { original_tag = X01 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Intelligence Agency" }
+	default = { tag = X02 }
+	available = { original_tag = X02 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "A.I.A." }
+	default = { tag = X03 }
+	available = { original_tag = X03 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_gre
+	names = { "Ethnikí Ypiresía Pliroforión" }
+	default = { tag = X04 }
+	available = { original_tag = X04 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "CIS" }
+	default = { tag = X05 }
+	available = { original_tag = X05 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "GNP" }
+	default = { tag = X06 }
+	available = { original_tag = X06 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "General Intelligence Office" }
+	default = { tag = X07 }
+	available = { original_tag = X07 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "NAB" }
+	default = { tag = X08 }
+	available = { original_tag = X08 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Intelligence Agency" }
+	default = { tag = X09 }
+	available = { original_tag = X09 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_hol
+	names = { "Bureau Inlichtingen" }
+	default = { tag = X10 }
+	available = { original_tag = X10 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Intelligence Agency" }
+	default = { tag = X11 }
+	available = { original_tag = X11 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Chin-Chin" }
+	default = { tag = X12 }
+	available = { original_tag = X12 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_sia
+	names = { "Intelligence Agency" }
+	default = { tag = X13 }
+	available = { original_tag = X13 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_pol
+	names = { "Dwojka" }
+	default = { tag = X14 }
+	available = { original_tag = X14 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Savannakhet" }
+	default = { tag = X15 }
+	available = { original_tag = X15 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	default = { tag = X16 }
+	available = { original_tag = X16 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Intelligence Agency" }
+	default = { tag = X17 }
+	available = { original_tag = X17 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "SECP" }
+	default = { tag = X18 }
+	available = { original_tag = X18 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Intelligence Agency" }
+	default = { tag = X19 }
+	available = { original_tag = X19 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Intelligence Agency" }
+	default = { tag = X20 }
+	available = { original_tag = X20 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Intelligence Agency" }
+	default = { tag = X21 }
+	available = { original_tag = X21 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Tai-Yai" }
+	default = { tag = X22 }
+	available = { original_tag = X22 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_chi_alternative
+	names = { "NBIS" }
+	default = { tag = X23 }
+	available = { original_tag = X23 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	default = { tag = X24 }
+	available = { original_tag = X24 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "SÄKK" }
+	default = { tag = X25 }
+	available = { original_tag = X25 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_man
+	names = { "Hoankyoku" }
+	default = { tag = X26 }
+	available = { original_tag = X26 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	default = { tag = X27 }
+	available = { original_tag = X27 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Directorate of Military Intelligence" }
+	default = { tag = X28 }
+	available = { original_tag = X28 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	default = { tag = X29 }
+	available = { original_tag = X29 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Intelligence Agency" }
+	default = { tag = X30 }
+	available = { original_tag = X30 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_pol
+	names = { "Intelligence Agency" }
+	default = { tag = X31 }
+	available = { original_tag = X31 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Intelligence Agency" }
+	default = { tag = X32 }
+	available = { original_tag = X32 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Intelligence Agency" }
+	default = { tag = X33 }
+	available = { original_tag = X33 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Ethnikí Ypiresía Pliroforión" }
+	default = { tag = X34 }
+	available = { original_tag = X34 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "FIU-Ind" }
+	default = { tag = X35 }
+	available = { original_tag = X35 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Intelligence Agency" }
+	default = { tag = X36 }
+	available = { original_tag = X36 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Intelligence Agency" }
+	default = { tag = X37 }
+	available = { original_tag = X37 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Intelligence Agency" }
+	default = { tag = X38 }
+	available = { original_tag = X38 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Ciruzzi" }
+	default = { tag = X39 }
+	available = { original_tag = X39 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Intelligence Agency" }
+	default = { tag = X40 }
+	available = { original_tag = X40 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_man
+	names = { "Intelligence Agency" }
+	default = { tag = X41 }
+	available = { original_tag = X41 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_per
+	names = { "Sazeman-e Ettela'at va Amniyat-e Keshvar" }
+	default = { tag = X42 }
+	available = { original_tag = X42 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Research and Analysis Wing" }
+	default = { tag = X43 }
+	available = { original_tag = X43 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Intelligence Agency" }
+	default = { tag = X44 }
+	available = { original_tag = X44 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "A.I.A." }
+	default = { tag = X45 }
+	available = { original_tag = X45 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "GIA" }
+	default = { tag = X46 }
+	available = { original_tag = X46 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Intelligence Agency" }
+	default = { tag = X47 }
+	available = { original_tag = X47 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "VSOA" }
+	default = { tag = X48 }
+	available = { original_tag = X48 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Intelligence Agency" }
+	default = { tag = X49 }
+	available = { original_tag = X49 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Intelligence Agency" }
+	default = { tag = X50 }
+	available = { original_tag = X50 }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Intelligence Agency" }
+	default = { tag = ZAM }
+	available = { original_tag = ZAM }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "A.I.A." }
+	default = { tag = ZIM }
+	available = { original_tag = ZIM }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Rooke" }
+	default = { always = yes }
+	available = { always = yes }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Tower" }
+	default = { always = yes }
+	available = { always = yes }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Snake" }
+	default = { always = yes }
+	available = { always = yes }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Stag" }
+	default = { always = yes }
+	available = { always = yes }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Golden Lion" }
+	default = { always = yes }
+	available = { always = yes }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Arrow" }
+	default = { always = yes }
+	available = { always = yes }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Lion Head" }
+	default = { always = yes }
+	available = { always = yes }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Golden Eagle" }
+	default = { always = yes }
+	available = { always = yes }
+}
+

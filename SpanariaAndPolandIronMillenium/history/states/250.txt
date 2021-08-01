@@ -1,0 +1,32 @@
+
+state={
+	id=250
+	name="STATE_250"
+
+	history={
+		owner = EST
+		victory_points = {
+			9228 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			9228 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = EST
+		add_claim_by = SCA
+	}
+
+	provinces={
+		9228 
+	}
+	manpower=44612
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

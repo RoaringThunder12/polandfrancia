@@ -1,0 +1,31 @@
+
+state={
+	id=226
+	name="STATE_226"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			9137 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		7963 7978 9137 11194 
+	}
+	manpower=1135524
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
