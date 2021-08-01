@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = X02
+		owner = X54
 		victory_points = {
 			10522 15 
 		}
@@ -25,7 +25,7 @@ state={
 
 		}
 		add_core_of = MAL
-		add_core_of = X02
+		add_core_of = X54
 	}
 
 	provinces={

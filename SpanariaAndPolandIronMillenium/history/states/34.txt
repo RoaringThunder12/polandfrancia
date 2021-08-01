@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = BAN
+		owner = X13
 		victory_points = {
 			1330 15 
 		}

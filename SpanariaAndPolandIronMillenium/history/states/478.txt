@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = X20
+		owner = X58
 		victory_points = {
 			12234 1 
 		}
@@ -21,7 +21,7 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = X20
+		add_core_of = X58
 	}
 
 	provinces={

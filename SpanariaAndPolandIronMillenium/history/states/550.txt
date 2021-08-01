@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = X57
+		owner = VIN
 		victory_points = {
 			12230 0 
 		}
