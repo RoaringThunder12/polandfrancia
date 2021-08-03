@@ -6,7 +6,7 @@ state={
 	history={
 		owner = X14
 		victory_points = {
-			495 1 
+			495 10
 		}
 		buildings = {
 			infrastructure = 5
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		495 
+		495 6469 6570 9482 529
 	}
 	manpower=1486580
 	buildings_max_level_factor=1.000

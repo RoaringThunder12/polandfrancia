@@ -222,8 +222,9 @@ X13 = {
 	color = rgb { 74 92 128 }
 	color_ui = rgb { 74 92 128 }}
 X14 = {
-	color = rgb { 95 106 207 }
-	color_ui = rgb { 95 106 207 }}
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
 X15 = {
 	color = rgb { 210 46 28 }
 	color_ui = rgb { 210 46 28 }}
