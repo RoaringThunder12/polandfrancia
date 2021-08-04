@@ -1,7 +1,6 @@
-
 state={
-	id=560
-	name="STATE_560"
+	id=750
+	name="Lublin"
 	resources={
 		oil=2.000
 		steel=16.000
@@ -11,16 +10,16 @@ state={
 	owner = X31
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = X31
 	}
 
 	provinces={
-		400 402 524 3230 3254 3521 3559 6259 6321 6484 6567 6580 9290 9316 9452 9521 9544 11274 11329 11357 11385 11399 11466 12562 
+	524 402 12562 3521 9544 11466 6484 3559 9521 11399 9452 6580
 	}
-	manpower=1773296
+	manpower=773296
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }
